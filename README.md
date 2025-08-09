@@ -22,7 +22,7 @@ than a 10-pin bowling ball, and consists of the following parts:
      discontinuity, the boundary between the mantle and the crust, vertically
      exaggerated 5x.
  - 28 colourful tectonic plate pieces, magnetically attached to the mantle
-   segments.
+   segments, on a single 256mm build plate.
    - A fixed depth of mantle is embedded in each piece to allow space for
      magnets and to physically connect grouped microplates.
    - Each is shaped corresponding to the topology of the land and ocean floor,
@@ -100,9 +100,10 @@ PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
 For the purposes of the GPL, the contents of this project are considered the
 "source code" (since they are the preferred form for making modifications), and
-any exported 3d meshes which derive from this project are considered "Object
-code", and should only be distributed according to the terms of the GPL, along
-with the following attribution notices:
+any exported 3d meshes which derive from this project (including the
+placeholder meshes in `3mf/`, release files, and 3d prints) are considered
+"Object code", and should only be distributed according to the terms of the
+GPL, along with the following attribution notices:
 - Copyright © 2025 James Hogan.
 - Contains tectonic plate information from [Hugo Ahlenius' World tectonic
   plates and boundaries
@@ -171,10 +172,67 @@ boundaries repository](https://github.com/fraxen/tectonicplates.git).
   international date line.
 
 
+3mf File Details
+================
+
+Note: please download the final 3mf with high resolution models from a release
+rather than using the files straight from the repository, unless you're an
+advanced user wanting to make modifications.
+
+The parts are laid out ready for 3D printing in a 3mf file, which is stored in
+this repository in the `3mf/` directory, along with very low resolution
+placeholder meshes. This can be zipped up into `tectonic-puzzle.3mf` using this
+command:
+```bash
+$ make tectonic-puzzle.3mf
+```
+
+Updates can be written back into the `3mf/` directory (also stripping the
+absolute paths from source meshes to allow easy reloading) using this command:
+```bash
+$ make 3mf
+```
+
+
+Build plates
+------------
+
+The inner core halves on build plate 1 are identical to one another, and only
+use multiple materials for the text labels against the base plate. Variable
+layer heights are used to reduce the stepping/contouring effect at the top of
+the hemispheres.
+
+The outer core quadrants on build plate 2 are identical to one another, and
+only use multiple materials for the text labels against the base plate.
+Supports are used for the inner core cutouts. Variable layer heights are used
+to reduce the stepping/contouring effect at the top of the quadrants.
+
+The mantle segments on build plates 3 and 4 are unique, and only use multiple
+materials for the text labels against the base plate. Supports are used for the
+outer core cutouts, but not the magnet slots against the base plate. The
+segments on each plate are grouped together in assemblies to allow for variable
+layer heights to be used to reduce the stepping/contouring effect at the top of
+the segments.
+
+The tectonic plate pieces on build plate 5 are carefully and compactly arranged
+on a single build plate to minimise filament wastage while printing upright for
+maximum quality on the large faces (avoiding stepping). Supports are used for
+the overhanging magnet slots and to print unsliced minor plates on. Some of the
+brims, supports, and purge tower edges may overlap slightly which should be
+harmless, but it should be carefully checked in case your supports are
+generated differently. These have been partly mitigated by grouping some of the
+plates together in assemblies to encourage the slicer to generate supports more
+sensibly.
+
+
 Generating High Resolution Models from Source
 =============================================
 
-You will need a lot of RAM, blender will easily consume close to 32GB to
+Note: please download the final 3mf with high resolution models from a release
+rather than following these instructions, unless you're an advanced user
+wanting to make modifications.
+
+You will also need a lot of RAM, blender will easily consume close to 32GB to
 generate the high resolution tectonic place meshes, so you'll ideally want at
 least 32GB or RAM, preferably 64GB or plenty of swap space, and will probably
 want to ensure as many programs as possible are closed.
@@ -229,6 +287,37 @@ Generating Tectonic Plate Pieces
   repeatedly recalculates modifiers for each plate. Observe progress in the
   terminal. `plate_*.obj` files will be created, along with corresponding
   `plate_*.mtl` files.
+
+
+Importing the OBJ files into Orca Slicer
+----------------------------------------
+
+- Build the `tectonic-puzzle.3mf` file with small placeholder meshes using `make`:
+```shell
+$ make tectonic-puzzle.3mf
+```
+- Open `tectonic-puzzle.3mf` in Orca Slicer.
+- Right click a build plate in the objects hierarchy.
+- Select "Reload all". For each mesh object you will be asked to configure the
+  mapping between colours and materials.
+  - For every file, first use the quick set "Reset" and then "Color match".
+  - `core_inner.obj`: set 1 to yellow, 2 to black.
+  - `core_outer.obj`: set 1 to orange, 2 to black.
+  - `mantle*.obj` (x8): set 1 to red, 2 to white.
+  - `plate_*.obj` (x28): hopefully the "Color match" will select the correct
+    colours, some combination of blue, green, red and dark grey.
+- Some plate pieces may have the wrong colour back. To fix this:
+  - Select all plate pieces.
+  - Right-click the plates and set filament for the selected items to red.
+- The mantle segments have magnet slots against the build plate, which do not
+  need support. To fix this:
+  - Select each mantle piece in turn.
+  - Click the support painting tool.
+  - Switch the paint tool to fill.
+  - Right click in each of the segment's magnet holes against the base plate to
+    disable supports. There are 3 downward facing faces where supports need
+    disabling.
+  - Exit the support painting tool.
 
 
 Blender File Details

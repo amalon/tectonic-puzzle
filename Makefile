@@ -1,6 +1,10 @@
+ZIP=zip
 UNZIP=unzip
 GDAL_TRANSLATE=gdal_translate
 TIF_OPTS=-co COMPRESS=DEFLATE
+
+THREEMF_DIR=3mf
+THREEMF=tectonic-puzzle.3mf
 
 DOWNLOAD_DIR=downloads
 TEXTURES_DIR=textures
@@ -12,7 +16,22 @@ BLEND_DEPS += ${TEXTURES_DIR}/earth_map.tif
 BLEND_DEPS += ${TEXTURES_DIR}/unavco_moho.tif
 BLEND_DEPS += ${TEXTURES_DIR}/gemma_moho.tif
 
-all: ${BLEND_DEPS}
+all: ${THREEMF} ${BLEND_DEPS}
+
+# Build 3mf file, by zipping up the 3mf/ directory.
+${THREEMF}:
+	rm -f $@
+	cd ${THREEMF_DIR} && ${ZIP} -r ../${THREEMF} *
+
+# Extract a modified 3mf file to the 3mf/ directory.
+# Also strip absolute paths from source obj file names, so the placeholder
+# meshes can be more easily replaced with high resolution meshes.
+.PHONY: ${THREEMF_DIR}
+${THREEMF_DIR}:
+	rm -fr ${THREEMF_DIR}
+	mkdir ${THREEMF_DIR}
+	${UNZIP} ${THREEMF} -d ${THREEMF_DIR}
+	sed -i 's/\(<metadata key="source_file" value="\)\/.*\/\([^\/]*"\)/\1\2/g' 3mf/Metadata/model_settings.config
 
 # Download sources.
 # See README.md for details and attribution.
