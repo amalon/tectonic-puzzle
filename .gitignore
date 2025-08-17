@@ -1,2 +1,5 @@
 downloads/
 textures/
+*.blend1
+*.obj
+*.mtl
