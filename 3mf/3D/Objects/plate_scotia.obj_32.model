@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model unit="millimeter" xml:lang="en-US" xmlns="http://schemas.microsoft.com/3dmanufacturing/core/2015/02" xmlns:BambuStudio="http://schemas.bambulab.com/package/2021" xmlns:p="http://schemas.microsoft.com/3dmanufacturing/production/2015/06" requiredextensions="p">
+ <metadata name="BambuStudio:3mfVersion">1</metadata>
+ <resources>
+  <object id="13" p:UUID="00200000-81cb-4c03-9d28-80fed5dfa1dc" type="model">
+   <mesh>
+    <vertices>
+     <vertex x="-17.0919304" y="5.00387573" z="15.2744446"/>
+     <vertex x="-14.6283836" y="-0.175239563" z="17.469841"/>
+     <vertex x="-4.51153183" y="-1.91468811" z="0.867843628"/>
+     <vertex x="-2.58623123" y="-5.25869751" z="1.17900848"/>
+     <vertex x="7.8711586" y="-2.13645935" z="-14.58181"/>
+     <vertex x="9.58110428" y="2.34867096" z="6.21758652"/>
+     <vertex x="6.98297501" y="5.73428345" z="5.28039551"/>
+     <vertex x="7.37722397" y="-5.73427582" z="-9.81538773"/>
+     <vertex x="15.3327217" y="1.5431366" z="-8.74533272"/>
+     <vertex x="17.0919304" y="0.907264709" z="-17.4698448"/>
+    </vertices>
+    <triangles>
+     <triangle v1="3" v2="1" v3="2"/>
+     <triangle v1="7" v2="3" v3="2"/>
+     <triangle v1="7" v2="2" v3="4"/>
+     <triangle v1="8" v2="6" v3="5"/>
+     <triangle v1="2" v2="1" v3="0"/>
+     <triangle v1="0" v2="6" v3="2"/>
+     <triangle v1="2" v2="6" v3="4"/>
+     <triangle v1="8" v2="4" v3="6"/>
+     <triangle v1="4" v2="8" v3="9"/>
+     <triangle v1="6" v2="0" v3="1" paint_color="1C"/>
+     <triangle v1="5" v2="6" v3="1" paint_color="1C"/>
+     <triangle v1="4" v2="9" v3="7" paint_color="1C"/>
+     <triangle v1="3" v2="5" v3="1" paint_color="5C"/>
+     <triangle v1="7" v2="8" v3="5" paint_color="5C"/>
+     <triangle v1="9" v2="8" v3="7" paint_color="5C"/>
+     <triangle v1="3" v2="7" v3="5" paint_color="5C"/>
+    </triangles>
+   </mesh>
+  </object>
+ </resources>
+ <build/>
+</model>

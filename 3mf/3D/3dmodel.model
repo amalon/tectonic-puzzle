@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model unit="millimeter" xml:lang="en-US" xmlns="http://schemas.microsoft.com/3dmanufacturing/core/2015/02" xmlns:BambuStudio="http://schemas.bambulab.com/package/2021" xmlns:p="http://schemas.microsoft.com/3dmanufacturing/production/2015/06" requiredextensions="p">
+ <metadata name="Application">BambuStudio-2.3.0</metadata>
+ <metadata name="BambuStudio:3mfVersion">1</metadata>
+ <metadata name="Copyright"></metadata>
+ <metadata name="CreationDate">2025-08-17</metadata>
+ <metadata name="Description"></metadata>
+ <metadata name="Designer">James Hogan</metadata>
+ <metadata name="DesignerCover"></metadata>
+ <metadata name="DesignerUserId"></metadata>
+ <metadata name="License"></metadata>
+ <metadata name="ModificationDate">2025-08-17</metadata>
+ <metadata name="Origin"></metadata>
+ <metadata name="Thumbnail_Middle">/Metadata/plate_1.png</metadata>
+ <metadata name="Thumbnail_Small">/Metadata/plate_1_small.png</metadata>
+ <metadata name="Title">Tectonic Puzzle</metadata>
+ <resources>
+  <object id="2" p:UUID="00000004-61cb-4c03-9d28-80fed5dfa1dc" type="model">
+   <components>
+    <component p:path="/3D/Objects/core_outer.obj_4.model" objectid="1" p:UUID="00040000-b206-40ff-9872-83e8017abed1" transform="1 0 0 0 1 0 0 0 1 0 0 0"/>
+   </components>
+  </object>
+  <object id="4" p:UUID="00000005-61cb-4c03-9d28-80fed5dfa1dc" type="model">
+   <components>
+    <component p:path="/3D/Objects/core_inner.obj_5.model" objectid="3" p:UUID="00050000-b206-40ff-9872-83e8017abed1" transform="1 0 0 0 1 0 0 0 1 0 0 0"/>
+   </components>
+  </object>
+  <object id="5" p:UUID="0000004b-71cb-4c03-9d28-80fed5dfa1dc" type="model">
+   <components>
+    <component p:path="/3D/Objects/core_inner.obj_5.model" objectid="3" p:UUID="004b0000-b206-40ff-9872-83e8017abed1" transform="1 0 0 0 1 0 0 0 1 0 0 0"/>
+   </components>
+  </object>
+  <object id="6" p:UUID="0000004c-71cb-4c03-9d28-80fed5dfa1dc" type="model">
+   <components>
+    <component p:path="/3D/Objects/core_outer.obj_4.model" objectid="1" p:UUID="004c0000-b206-40ff-9872-83e8017abed1" transform="1 0 0 0 1 0 0 0 1 0 0 0"/>
+   </components>
+  </object>
+  <object id="7" p:UUID="0000004d-71cb-4c03-9d28-80fed5dfa1dc" type="model">
+   <components>
+    <component p:path="/3D/Objects/core_outer.obj_4.model" objectid="1" p:UUID="004d0000-b206-40ff-9872-83e8017abed1" transform="1 0 0 0 1 0 0 0 1 0 0 0"/>
+   </components>
+  </object>
+  <object id="8" p:UUID="0000004e-71cb-4c03-9d28-80fed5dfa1dc" type="model">
+   <components>
+    <component p:path="/3D/Objects/core_outer.obj_4.model" objectid="1" p:UUID="004e0000-b206-40ff-9872-83e8017abed1" transform="1 0 0 0 1 0 0 0 1 0 0 0"/>
+   </components>
+  </object>
+  <object id="10" p:UUID="00000014-61cb-4c03-9d28-80fed5dfa1dc" type="model">
+   <components>
+    <component p:path="/3D/Objects/plate_caribbean.obj_20.model" objectid="9" p:UUID="00140000-b206-40ff-9872-83e8017abed1" transform="1 0 0 0 1 0 0 0 1 0 0 0"/>
+   </components>
+  </object>
+  <object id="12" p:UUID="0000001d-61cb-4c03-9d28-80fed5dfa1dc" type="model">
+   <components>
+    <component p:path="/3D/Objects/plate_nazca.obj_29.model" objectid="11" p:UUID="001d0000-b206-40ff-9872-83e8017abed1" transform="1 0 0 0 1 0 0 0 1 0 0 0"/>
+   </components>
+  </object>
+  <object id="14" p:UUID="00000020-61cb-4c03-9d28-80fed5dfa1dc" type="model">
+   <components>
+    <component p:path="/3D/Objects/plate_scotia.obj_32.model" objectid="13" p:UUID="00200000-b206-40ff-9872-83e8017abed1" transform="1 0 0 0 1 0 0 0 1 0 0 0"/>
+   </components>
+  </object>
+  <object id="16" p:UUID="00000026-61cb-4c03-9d28-80fed5dfa1dc" type="model">
+   <components>
+    <component p:path="/3D/Objects/plate_australia1.obj_38.model" objectid="15" p:UUID="00260000-b206-40ff-9872-83e8017abed1" transform="1 0 0 0 1 0 0 0 1 0 0 0"/>
+   </components>
+  </object>
+  <object id="18" p:UUID="0000002a-61cb-4c03-9d28-80fed5dfa1dc" type="model">
+   <components>
+    <component p:path="/3D/Objects/plate_australia2.obj_42.model" objectid="17" p:UUID="002a0000-b206-40ff-9872-83e8017abed1" transform="1 0 0 0 1 0 0 0 1 0 0 0"/>
+   </components>
+  </object>
+  <object id="20" p:UUID="0000002d-61cb-4c03-9d28-80fed5dfa1dc" type="model">
+   <components>
+    <component p:path="/3D/Objects/plate_antarctica1.obj_45.model" objectid="19" p:UUID="002d0000-b206-40ff-9872-83e8017abed1" transform="1 0 0 0 1 0 0 0 1 0 0 0"/>
+   </components>
+  </object>
+  <object id="22" p:UUID="00000031-61cb-4c03-9d28-80fed5dfa1dc" type="model">
+   <components>
+    <component p:path="/3D/Objects/plate_south_america1.obj_49.model" objectid="21" p:UUID="00310000-b206-40ff-9872-83e8017abed1" transform="1 0 0 0 1 0 0 0 1 0 0 0"/>
+   </components>
+  </object>
+  <object id="24" p:UUID="00000033-61cb-4c03-9d28-80fed5dfa1dc" type="model">
+   <components>
+    <component p:path="/3D/Objects/plate_africa1.obj_51.model" objectid="23" p:UUID="00330000-b206-40ff-9872-83e8017abed1" transform="1 0 0 0 1 0 0 0 1 0 0 0"/>
+   </components>
+  </object>
+  <object id="26" p:UUID="00000034-61cb-4c03-9d28-80fed5dfa1dc" type="model">
+   <components>
+    <component p:path="/3D/Objects/plate_africa2.obj_52.model" objectid="25" p:UUID="00340000-b206-40ff-9872-83e8017abed1" transform="1 0 0 0 1 0 0 0 1 0 0 0"/>
+   </components>
+  </object>
+  <object id="28" p:UUID="00000038-61cb-4c03-9d28-80fed5dfa1dc" type="model">
+   <components>
+    <component p:path="/3D/Objects/plate_eurasia2.obj_56.model" objectid="27" p:UUID="00380000-b206-40ff-9872-83e8017abed1" transform="1 0 0 0 1 0 0 0 1 0 0 0"/>
+   </components>
+  </object>
+  <object id="30" p:UUID="0000003b-61cb-4c03-9d28-80fed5dfa1dc" type="model">
+   <components>
+    <component p:path="/3D/Objects/plate_north_america1.obj_59.model" objectid="29" p:UUID="003b0000-b206-40ff-9872-83e8017abed1" transform="1 0 0 0 1 0 0 0 1 0 0 0"/>
+   </components>
+  </object>
+  <object id="32" p:UUID="0000003c-61cb-4c03-9d28-80fed5dfa1dc" type="model">
+   <components>
+    <component p:path="/3D/Objects/plate_north_america2.obj_60.model" objectid="31" p:UUID="003c0000-b206-40ff-9872-83e8017abed1" transform="1 0 0 0 1 0 0 0 1 0 0 0"/>
+   </components>
+  </object>
+  <object id="34" p:UUID="0000003e-61cb-4c03-9d28-80fed5dfa1dc" type="model">
+   <components>
+    <component p:path="/3D/Objects/plate_pacific2.obj_62.model" objectid="33" p:UUID="003e0000-b206-40ff-9872-83e8017abed1" transform="1 0 0 0 1 0 0 0 1 0 0 0"/>
+   </components>
+  </object>
+  <object id="36" p:UUID="0000003f-61cb-4c03-9d28-80fed5dfa1dc" type="model">
+   <components>
+    <component p:path="/3D/Objects/plate_pacific3.obj_63.model" objectid="35" p:UUID="003f0000-b206-40ff-9872-83e8017abed1" transform="1 0 0 0 1 0 0 0 1 0 0 0"/>
+   </components>
+  </object>
+  <object id="41" p:UUID="00000044-61cb-4c03-9d28-80fed5dfa1dc" type="model">
+   <components>
+    <component p:path="/3D/Objects/Assembly_68.model" objectid="37" p:UUID="00440000-b206-40ff-9872-83e8017abed1" transform="0.549680872 -0.437878411 0.7114165 -0.742720202 -0.64598643 0.176261832 0.382384154 -0.625271163 -0.680307526 10.863369 -5.2723823 -14.6644929"/>
+    <component p:path="/3D/Objects/Assembly_68.model" objectid="38" p:UUID="00440001-b206-40ff-9872-83e8017abed1" transform="-0.0604202817 0.992670965 0.104660136 0.0168842208 -0.103820313 0.994452747 0.998030216 0.0618522199 -0.0104876232 9.61731327 -44.94136 -17.9729542"/>
+    <component p:path="/3D/Objects/Assembly_68.model" objectid="39" p:UUID="00440002-b206-40ff-9872-83e8017abed1" transform="-0.857055664 0.179313446 -0.483013745 0.250327569 0.96431731 -0.086187198 0.450323992 -0.194778883 -0.871360711 -3.5460624 3.84980798 -2.05429524"/>
+    <component p:path="/3D/Objects/Assembly_68.model" objectid="40" p:UUID="00440003-b206-40ff-9872-83e8017abed1" transform="0.481305744 -0.52908665 -0.698864864 -0.437892837 0.545542031 -0.714586423 0.759338294 0.649962468 0.0308892591 9.78042179 39.6983833 -11.3473897"/>
+   </components>
+  </object>
+  <object id="44" p:UUID="00000045-61cb-4c03-9d28-80fed5dfa1dc" type="model">
+   <components>
+    <component p:path="/3D/Objects/Assembly_69.model" objectid="42" p:UUID="00450000-b206-40ff-9872-83e8017abed1" transform="0.331200978 -0.0155376213 0.943432295 0.033800082 0.999418056 0.00459382089 -0.942954647 0.030366611 0.33153341 2.87727839 11.0289002 -13.4099737"/>
+    <component p:path="/3D/Objects/Assembly_69.model" objectid="43" p:UUID="00450001-b206-40ff-9872-83e8017abed1" transform="-0.0492860061 -0.712126972 -0.700318546 0.900764583 0.271232831 -0.339198933 0.43150209 -0.647539904 0.628090773 -10.495557 -10.8361058 -13.6495429"/>
+   </components>
+  </object>
+  <object id="47" p:UUID="00000046-61cb-4c03-9d28-80fed5dfa1dc" type="model">
+   <components>
+    <component p:path="/3D/Objects/Assembly_70.model" objectid="45" p:UUID="00460000-b206-40ff-9872-83e8017abed1" transform="0.678432782 -0.334959402 -0.65385867 -0.716184867 -0.499896875 -0.487013704 -0.163732087 0.798689746 -0.579039283 6.2249371 79.8689325 -6.08665111"/>
+    <component p:path="/3D/Objects/Assembly_70.model" objectid="46" p:UUID="00460001-b206-40ff-9872-83e8017abed1" transform="-0.283508917 0.74962542 -0.59806724 -0.851095338 0.0906844762 0.517119958 0.441881681 0.65562036 0.612292843 -17.9289411 -13.1087049 -12.8693985"/>
+   </components>
+  </object>
+  <object id="50" p:UUID="00000047-61cb-4c03-9d28-80fed5dfa1dc" type="model">
+   <components>
+    <component p:path="/3D/Objects/Assembly_71.model" objectid="48" p:UUID="00470000-b206-40ff-9872-83e8017abed1" transform="-0.684928024 0.719221078 -0.116596073 0.0310759547 0.188715951 0.9815399 0.727947724 0.66866085 -0.151607325 4.45660486 12.7801094 -10.7610272"/>
+    <component p:path="/3D/Objects/Assembly_71.model" objectid="49" p:UUID="00470001-b206-40ff-9872-83e8017abed1" transform="0.902919645 0.190920284 -0.385078641 -0.319076851 -0.302520099 -0.898148959 -0.287968882 0.93382602 -0.212233097 -9.73320433 -5.71696612 -3.95364512"/>
+   </components>
+  </object>
+  <object id="55" p:UUID="00000048-61cb-4c03-9d28-80fed5dfa1dc" type="model">
+   <components>
+    <component p:path="/3D/Objects/Assembly_72.model" objectid="51" p:UUID="00480000-b206-40ff-9872-83e8017abed1" transform="1 1.38777878e-16 2.08685928e-08 2.03656536e-15 -1 -9.66150322e-08 2.08685928e-08 9.66150322e-08 -1 -43.281085 60.5996957 -0.297873864"/>
+    <component p:path="/3D/Objects/Assembly_72.model" objectid="52" p:UUID="00480001-b206-40ff-9872-83e8017abed1" transform="1.50262551e-07 -1.27768026e-08 -1 -1.27768026e-08 1 -1.27768045e-08 1 1.27768045e-08 1.50262551e-07 58.6961633 -40.9305653 3.13459004e-06"/>
+    <component p:path="/3D/Objects/Assembly_72.model" objectid="53" p:UUID="00480002-b206-40ff-9872-83e8017abed1" transform="2.22044605e-16 1 0 -1 2.22044605e-16 0 0 0 1 58.7396863 60.6311893 -0.347319764"/>
+    <component p:path="/3D/Objects/Assembly_72.model" objectid="54" p:UUID="00480003-b206-40ff-9872-83e8017abed1" transform="1.27521235e-07 1.28704725e-07 1 1 -1.27521235e-07 -1.27521218e-07 1.27521219e-07 1 -1.28704741e-07 -42.7771526 -41.1478042 -0.204633302"/>
+   </components>
+  </object>
+  <object id="60" p:UUID="00000049-61cb-4c03-9d28-80fed5dfa1dc" type="model">
+   <components>
+    <component p:path="/3D/Objects/Assembly_73.model" objectid="56" p:UUID="00490000-b206-40ff-9872-83e8017abed1" transform="2.22044605e-16 0 -1 0 1 0 1 0 2.22044605e-16 58.6619427 64.0396547 -1.90734863e-06"/>
+    <component p:path="/3D/Objects/Assembly_73.model" objectid="57" p:UUID="00490001-b206-40ff-9872-83e8017abed1" transform="2.22044605e-16 1 0 -1 2.22044605e-16 0 0 0 1 -43.3632295 64.0546693 -0.367444992"/>
+    <component p:path="/3D/Objects/Assembly_73.model" objectid="58" p:UUID="00490002-b206-40ff-9872-83e8017abed1" transform="3.12169957e-07 1.73195386e-07 1 1.73195386e-07 -1 1.73195332e-07 1 1.73195332e-07 -3.12169987e-07 -43.2251061 -37.5153836 -0.208837465"/>
+    <component p:path="/3D/Objects/Assembly_73.model" objectid="59" p:UUID="00490003-b206-40ff-9872-83e8017abed1" transform="2.93100217e-09 1 -4.33768635e-16 1 -2.93100217e-09 -1.44472118e-07 -1.44472118e-07 -1.03205433e-17 -1 59.3752941 -38.1389091 -0.290923975"/>
+   </components>
+  </object>
+  <object id="65" p:UUID="0000004a-61cb-4c03-9d28-80fed5dfa1dc" type="model">
+   <components>
+    <component p:path="/3D/Objects/Assembly_74.model" objectid="61" p:UUID="004a0000-b206-40ff-9872-83e8017abed1" transform="0.30419424 -0.590491319 0.74751981 0.400574399 -0.632668325 -0.662775182 0.864295097 0.501049691 0.0440816445 14.5095183 12.1053822 -23.2544484"/>
+    <component p:path="/3D/Objects/Assembly_74.model" objectid="62" p:UUID="004a0001-b206-40ff-9872-83e8017abed1" transform="-0.500270557 0.483086579 -0.718579659 -0.627130436 -0.774372618 -0.0839908655 -0.597023272 0.408625017 0.690354118 26.4096448 22.0712426 -28.2695103"/>
+    <component p:path="/3D/Objects/Assembly_74.model" objectid="63" p:UUID="004a0002-b206-40ff-9872-83e8017abed1" transform="0.988857172 -0.0886705308 -0.11957855 -0.148775927 -0.560486433 -0.814690544 0.0052168883 0.823402998 -0.567433069 -47.6099257 9.78305855 -25.0622907"/>
+    <component p:path="/3D/Objects/Assembly_74.model" objectid="64" p:UUID="004a0003-b206-40ff-9872-83e8017abed1" transform="0.302594953 0.942186291 0.143948907 0.378443744 -0.257383286 0.889119889 0.874766613 -0.214566628 -0.434447391 -0.105223426 1.51562177 -12.9488829"/>
+   </components>
+  </object>
+ </resources>
+ <build p:UUID="2c7c17d8-22b5-4d84-8835-1976022ea369">
+  <item objectid="2" p:UUID="00000002-b1ec-4553-aec9-835e5b724bb4" transform="2.22044605e-16 -7.39557099e-32 -1 2.77555756e-16 1 0 1 -2.77555756e-16 2.22044605e-16 435.881824 132.541276 27.759779" printable="1"/>
+  <item objectid="4" p:UUID="00000004-b1ec-4553-aec9-835e5b724bb4" transform="8.71576399e-33 -8.71576399e-33 -1 -0.707106781 0.707106781 -1.11022302e-16 0.707106781 0.707106781 1.36845553e-48 100.006871 131.623188 9.57557106" printable="1"/>
+  <item objectid="5" p:UUID="00000005-b1ec-4553-aec9-835e5b724bb4" transform="2.22044605e-16 0 -1 0 1 0 1 0 2.22044605e-16 147.831948 131.447308 9.57557106" printable="1"/>
+  <item objectid="6" p:UUID="00000006-b1ec-4553-aec9-835e5b724bb4" transform="-2.35922393e-16 -2.22044605e-16 -1 -2.77555756e-16 -1 -2.22044605e-16 -1 2.77555756e-16 2.08166817e-16 435.257405 67.4790349 27.759779" printable="1"/>
+  <item objectid="7" p:UUID="00000007-b1ec-4553-aec9-835e5b724bb4" transform="-4.93038066e-32 -2.20309881e-16 -1 1 -2.77555756e-16 -9.02779661e-36 -2.77555756e-16 -1 2.23779328e-16 528.652552 101.440395 27.759779" printable="1"/>
+  <item objectid="8" p:UUID="00000008-b1ec-4553-aec9-835e5b724bb4" transform="9.86076132e-32 3.88578058e-16 -1 -1 2.77555756e-16 -3.69778549e-32 2.77555756e-16 1 5.55111512e-17 343.445184 100.150481 27.759779" printable="1"/>
+  <item objectid="10" p:UUID="0000000a-b1ec-4553-aec9-835e5b724bb4" transform="-0.573082543 -0.779809851 0.251938477 0.102913572 -0.373479615 -0.921912021 0.81300996 -0.502403796 0.294287665 538.180646 -76.2804723 17.0277405" printable="1"/>
+  <item objectid="12" p:UUID="0000000c-b1ec-4553-aec9-835e5b724bb4" transform="0.226397562 -0.3199149 -0.91999924 0.938983637 0.322784898 0.118826084 0.258947627 -0.890766168 0.373472571 511.813657 -91.0727628 30.711322" printable="1"/>
+  <item objectid="14" p:UUID="0000000e-b1ec-4553-aec9-835e5b724bb4" transform="0.601123692 -0.454930974 0.657029769 0.190130736 0.879961239 0.43533725 -0.776209129 -0.136769981 0.615461909 335.00672 -297.403989 4.73304344" printable="1"/>
+  <item objectid="16" p:UUID="00000010-b1ec-4553-aec9-835e5b724bb4" transform="0.397200571 0.856133082 -0.330556884 0.574209859 0.0491341008 0.817232451 0.715901351 -0.514414218 -0.472083963 538.152279 -210.787382 8.02356068" printable="1"/>
+  <item objectid="18" p:UUID="00000012-b1ec-4553-aec9-835e5b724bb4" transform="0.489462672 -0.806996431 0.330428591 0.57590597 0.0146184344 -0.817385232 0.654796616 0.590375355 0.471909241 541.148869 -208.467714 21.0846887" printable="1"/>
+  <item objectid="20" p:UUID="00000014-b1ec-4553-aec9-835e5b724bb4" transform="-0.323523489 -0.0725803673 -0.943432373 -0.207676574 0.978189214 -0.00403747281 0.923148413 0.194622586 -0.331540429 402.768354 -141.411202 10.2861593" printable="1"/>
+  <item objectid="22" p:UUID="00000016-b1ec-4553-aec9-835e5b724bb4" transform="-0.708818265 0.0821123669 0.700595623 0.431938801 0.835745146 0.339055928 -0.557678706 0.542943468 -0.627858942 476.708352 -199.662083 17.0274292" printable="1"/>
+  <item objectid="24" p:UUID="00000018-b1ec-4553-aec9-835e5b724bb4" transform="-0.111490521 -0.990628722 -0.0788961375 -0.915668924 0.0715545314 0.395512794 -0.386160957 0.116338669 -0.915065587 390.391281 -240.658263 12.7125212" printable="1"/>
+  <item objectid="26" p:UUID="0000001a-b1ec-4553-aec9-835e5b724bb4" transform="0.135589572 -0.987629106 0.0787668606 0.913604434 0.093874878 -0.395619067 0.383330676 0.125603573 0.915030784 395.883127 -275.093878 24.7561902" printable="1"/>
+  <item objectid="28" p:UUID="0000001c-b1ec-4553-aec9-835e5b724bb4" transform="0.785177909 -0.160883603 0.598006787 0.224603763 -0.825927329 -0.517104628 0.577103804 0.540333705 -0.612364831 396.973458 -122.855349 7.17058728" printable="1"/>
+  <item objectid="30" p:UUID="0000001e-b1ec-4553-aec9-835e5b724bb4" transform="0.478481158 0.0168406762 0.877936315 -0.393839216 -0.889495558 0.231707411 0.784822562 -0.45663338 -0.418974347 393.936081 -251.888199 15.3887527" printable="1"/>
+  <item objectid="32" p:UUID="00000020-b1ec-4553-aec9-835e5b724bb4" transform="-0.47837585 0.0213137391 -0.877896503 0.385463651 -0.893151759 -0.231727663 -0.789033788 -0.449250109 0.41904656 383.538449 -208.188883 15.4352382" printable="1"/>
+  <item objectid="34" p:UUID="00000022-b1ec-4553-aec9-835e5b724bb4" transform="-0.452533905 0.880061639 -0.14389089 -0.331308472 -0.315734224 -0.889126881 -0.827917727 -0.354687789 0.434452318 393.266497 -98.633728 20.3754726" printable="1"/>
+  <item objectid="36" p:UUID="00000024-b1ec-4553-aec9-835e5b724bb4" transform="-0.385869703 0.799481629 0.460362572 -0.452430124 0.270892058 -0.849661388 -0.803997236 -0.536140483 0.257180535 395.681589 -94.3046657 16.6743431" printable="1"/>
+  <item objectid="41" p:UUID="00000029-b1ec-4553-aec9-835e5b724bb4" transform="1 0 0 0 1 0 0 0 1 545.556534 -213.546553 32.6231967" printable="1"/>
+  <item objectid="44" p:UUID="0000002c-b1ec-4553-aec9-835e5b724bb4" transform="1 0 0 0 1 0 0 0 1 394.489228 -175.413334 27.8482961" printable="1"/>
+  <item objectid="47" p:UUID="0000002f-b1ec-4553-aec9-835e5b724bb4" transform="1 0 0 0 1 0 0 0 1 520.606765 -193.039968 31.7994384" printable="1"/>
+  <item objectid="50" p:UUID="00000032-b1ec-4553-aec9-835e5b724bb4" transform="1 0 0 0 1 0 0 0 1 500.04492 -69.678884 27.7867223" printable="1"/>
+  <item objectid="55" p:UUID="00000037-b1ec-4553-aec9-835e5b724bb4" transform="1 0 0 0 1 0 0 0 1 135.56474 -179.040742 47.6010887" printable="1"/>
+  <item objectid="60" p:UUID="0000003c-b1ec-4553-aec9-835e5b724bb4" transform="1 0 0 0 1 0 0 0 1 750.561653 123.801824 47.6187382" printable="1"/>
+  <item objectid="65" p:UUID="00000041-b1ec-4553-aec9-835e5b724bb4" transform="1 0 0 0 1 0 0 0 1 389.944252 -76.3429627 36.7472866" printable="1"/>
+ </build>
+</model>

@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model unit="millimeter" xml:lang="en-US" xmlns="http://schemas.microsoft.com/3dmanufacturing/core/2015/02" xmlns:BambuStudio="http://schemas.bambulab.com/package/2021" xmlns:p="http://schemas.microsoft.com/3dmanufacturing/production/2015/06" requiredextensions="p">
+ <metadata name="BambuStudio:3mfVersion">1</metadata>
+ <resources>
+  <object id="37" p:UUID="00440000-81cb-4c03-9d28-80fed5dfa1dc" type="model">
+   <mesh>
+    <vertices>
+     <vertex x="-11.2064743" y="3.66812134" z="12.79842"/>
+     <vertex x="-6.22298431" y="9.3056488" z="17.5290947"/>
+     <vertex x="-9.96059418" y="12.8853455" z="16.0023384"/>
+     <vertex x="7.76259613" y="17.3644257" z="6.91874695"/>
+     <vertex x="-23.0285568" y="-10.0385094" z="-3.26977539"/>
+     <vertex x="-21.0367966" y="-13.8156166" z="-0.0628471375"/>
+     <vertex x="-19.0838394" y="-14.7293739" z="-11.051796"/>
+     <vertex x="-15.0583878" y="-3.62753677" z="4.26708984"/>
+     <vertex x="-16.113121" y="-17.2147446" z="-7.97171021"/>
+     <vertex x="-10.8348312" y="-10.0280228" z="-14.1762009"/>
+     <vertex x="-7.452034" y="-17.3644295" z="-17.5290909"/>
+     <vertex x="-7.10782623" y="-10.596653" z="-9.17967224"/>
+     <vertex x="-1.41120148" y="-2.49460602" z="-5.87443924"/>
+     <vertex x="5.83138275" y="-6.1748085" z="-12.376915"/>
+     <vertex x="16.1097183" y="-4.05897522" z="-14.3385849"/>
+     <vertex x="-14.4522018" y="4.68492889" z="5.6590271"/>
+     <vertex x="0.6095047" y="2.75579071" z="-10.0465851"/>
+     <vertex x="3.49071503" y="-2.39225006" z="-16.1954498"/>
+     <vertex x="18.8831863" y="15.7477493" z="-0.956977844"/>
+     <vertex x="23.0285568" y="6.60596466" z="-4.93448257"/>
+     <vertex x="17.0321884" y="12.4447632" z="5.66577911"/>
+     <vertex x="22.476387" y="11.0958862" z="-8.34276581"/>
+     <vertex x="17.0785294" y="2.03501129" z="-17.2530441"/>
+    </vertices>
+    <triangles>
+     <triangle v1="0" v2="2" v3="15"/>
+     <triangle v1="1" v2="2" v3="0"/>
+     <triangle v1="0" v2="12" v3="1"/>
+     <triangle v1="3" v2="1" v3="20"/>
+     <triangle v1="8" v2="5" v3="4"/>
+     <triangle v1="11" v2="8" v3="10"/>
+     <triangle v1="11" v2="12" v3="7"/>
+     <triangle v1="16" v2="12" v3="11"/>
+     <triangle v1="7" v2="0" v3="15"/>
+     <triangle v1="12" v2="14" v3="19"/>
+     <triangle v1="19" v2="14" v3="22"/>
+     <triangle v1="12" v2="20" v3="1"/>
+     <triangle v1="7" v2="4" v3="5"/>
+     <triangle v1="5" v2="8" v3="7"/>
+     <triangle v1="8" v2="11" v3="7"/>
+     <triangle v1="10" v2="9" v3="11"/>
+     <triangle v1="12" v2="13" v3="14"/>
+     <triangle v1="14" v2="13" v3="17"/>
+     <triangle v1="7" v2="12" v3="0"/>
+     <triangle v1="12" v2="19" v3="20"/>
+     <triangle v1="19" v2="18" v3="20"/>
+     <triangle v1="2" v2="1" v3="3" paint_color="1C"/>
+     <triangle v1="16" v2="11" v3="9" paint_color="1C"/>
+     <triangle v1="17" v2="13" v3="12" paint_color="1C"/>
+     <triangle v1="4" v2="7" v3="15" paint_color="1C"/>
+     <triangle v1="16" v2="17" v3="12" paint_color="1C"/>
+     <triangle v1="17" v2="22" v3="14" paint_color="1C"/>
+     <triangle v1="3" v2="20" v3="18" paint_color="1C"/>
+     <triangle v1="21" v2="18" v3="19" paint_color="1C"/>
+     <triangle v1="22" v2="21" v3="19" paint_color="1C"/>
+     <triangle v1="6" v2="8" v3="4" paint_color="1C"/>
+     <triangle v1="6" v2="10" v3="8" paint_color="1C"/>
+     <triangle v1="9" v2="6" v3="4" paint_color="5C"/>
+     <triangle v1="16" v2="4" v3="15" paint_color="5C"/>
+     <triangle v1="4" v2="16" v3="9" paint_color="5C"/>
+     <triangle v1="6" v2="9" v3="10" paint_color="5C"/>
+     <triangle v1="15" v2="3" v3="16" paint_color="8"/>
+     <triangle v1="16" v2="3" v3="18" paint_color="8"/>
+     <triangle v1="18" v2="21" v3="16" paint_color="8"/>
+     <triangle v1="16" v2="21" v3="22" paint_color="8"/>
+     <triangle v1="15" v2="2" v3="3" paint_color="8"/>
+     <triangle v1="17" v2="16" v3="22" paint_color="8"/>
+    </triangles>
+   </mesh>
+  </object>
+  <object id="38" p:UUID="00440001-81cb-4c03-9d28-80fed5dfa1dc" type="model">
+   <mesh>
+    <vertices>
+     <vertex x="-15.9431076" y="-0.398042679" z="2.72283936"/>
+     <vertex x="-15.1881638" y="-1.3315649" z="-1.98401642"/>
+     <vertex x="-17.3349533" y="14.0063343" z="-1.30697632"/>
+     <vertex x="-17.4762115" y="12.9113121" z="-6.18511963"/>
+     <vertex x="-13.6573486" y="-12.8748865" z="2.83272552"/>
+     <vertex x="-3.23986053" y="7.95640755" z="-1.53083801"/>
+     <vertex x="0.908447742" y="-13.1218224" z="1.76378632"/>
+     <vertex x="3.4949038" y="-12.7997398" z="6.185112"/>
+     <vertex x="14.2690201" y="0.41998291" z="4.68938446"/>
+     <vertex x="15.8286896" y="-1.80007648" z="0.508178711"/>
+     <vertex x="17.4762115" y="-14.0063343" z="3.42056274"/>
+    </vertices>
+    <triangles>
+     <triangle v1="5" v2="2" v3="8" paint_color="1C"/>
+     <triangle v1="2" v2="1" v3="0" paint_color="1C"/>
+     <triangle v1="0" v2="1" v3="4" paint_color="1C"/>
+     <triangle v1="4" v2="6" v3="7" paint_color="1C"/>
+     <triangle v1="6" v2="10" v3="7" paint_color="1C"/>
+     <triangle v1="5" v2="8" v3="9" paint_color="1C"/>
+     <triangle v1="0" v2="4" v3="7" paint_color="5C"/>
+     <triangle v1="0" v2="7" v3="8" paint_color="5C"/>
+     <triangle v1="8" v2="7" v3="10" paint_color="5C"/>
+     <triangle v1="8" v2="2" v3="0" paint_color="5C"/>
+     <triangle v1="3" v2="1" v3="2"/>
+     <triangle v1="9" v2="8" v3="10"/>
+     <triangle v1="5" v2="4" v3="1"/>
+     <triangle v1="3" v2="5" v3="1"/>
+     <triangle v1="5" v2="3" v3="2"/>
+     <triangle v1="5" v2="6" v3="4"/>
+     <triangle v1="5" v2="9" v3="6"/>
+     <triangle v1="6" v2="9" v3="10"/>
+    </triangles>
+   </mesh>
+  </object>
+  <object id="39" p:UUID="00440002-81cb-4c03-9d28-80fed5dfa1dc" type="model">
+   <mesh>
+    <vertices>
+     <vertex x="-28.9321175" y="-17.1227989" z="-16.9904938"/>
+     <vertex x="-20.9595909" y="-8.18161774" z="-17.5639038"/>
+     <vertex x="-26.5222015" y="-14.4561996" z="-18.4797516"/>
+     <vertex x="-26.5222015" y="-14.2207527" z="-18.5577545"/>
+     <vertex x="-18.5610809" y="-22.8463554" z="-9.44952393"/>
+     <vertex x="-27.8044815" y="-20.0703316" z="-19.8964844"/>
+     <vertex x="-26.2855301" y="-14.3384743" z="-18.5187531"/>
+     <vertex x="-20.722065" y="-9.02186584" z="-22.1004486"/>
+     <vertex x="-22.1202927" y="14.6842442" z="-27.9129028"/>
+     <vertex x="-23.8004913" y="16.3099709" z="-23.9680939"/>
+     <vertex x="-23.4301376" y="-3.69544029" z="-19.9851532"/>
+     <vertex x="-21.0233803" y="4.54468727" z="-21.2397156"/>
+     <vertex x="-19.196125" y="3.71634674" z="-24.8932343"/>
+     <vertex x="-18.374897" y="26.6218987" z="-26.8286133"/>
+     <vertex x="-12.3563805" y="-31.4606628" z="-4.8117218"/>
+     <vertex x="-15.8973083" y="-26.3926964" z="-10.9850616"/>
+     <vertex x="-9.99035263" y="4.25354195" z="-20.8557129"/>
+     <vertex x="-11.702858" y="17.0541134" z="-18.5873108"/>
+     <vertex x="-11.3429489" y="-34.7279282" z="4.34652328"/>
+     <vertex x="-9.00167847" y="-37.3315277" z="2.60432816"/>
+     <vertex x="-14.7815247" y="-28.6410522" z="-3.28843689"/>
+     <vertex x="-10.1307602" y="-10.4979172" z="-16.1420898"/>
+     <vertex x="-18.080513" y="27.7435341" z="-21.5016174"/>
+     <vertex x="-6.36687469" y="-40.5120735" z="15.7282753"/>
+     <vertex x="-2.6088829" y="-46.9222527" z="27.9128952"/>
+     <vertex x="-3.65880966" y="-46.0613747" z="17.8443413"/>
+     <vertex x="4.53295135" y="-37.091629" z="16.3011971"/>
+     <vertex x="2.27828217" y="-34.7254562" z="18.0723419"/>
+     <vertex x="15.9215088" y="-21.8695602" z="27.0953712"/>
+     <vertex x="18.544548" y="-26.5954971" z="23.7008247"/>
+     <vertex x="17.426033" y="-16.0854492" z="24.5685539"/>
+     <vertex x="15.3326035" y="-11.4575691" z="16.0990868"/>
+     <vertex x="22.3052139" y="-18.0038338" z="22.258419"/>
+     <vertex x="19.2518234" y="-11.0999489" z="11.5775032"/>
+     <vertex x="-3.78430176" y="-41.5601768" z="11.5575371"/>
+     <vertex x="-13.6258507" y="-2.55844116" z="-15.7167969"/>
+     <vertex x="3.75948334" y="22.3591194" z="-8.34291077"/>
+     <vertex x="-8.10250092" y="22.4710655" z="-21.5776215"/>
+     <vertex x="-3.9479866" y="-17.5345917" z="-3.41252136"/>
+     <vertex x="-0.563041687" y="21.2787571" z="-16.9237671"/>
+     <vertex x="1.42960358" y="-27.90382" z="2.68639755"/>
+     <vertex x="1.44879913" y="-10.8055344" z="-0.175216675"/>
+     <vertex x="6.72577667" y="4.89119911" z="-9.02735901"/>
+     <vertex x="5.06910324" y="-23.46175" z="9.68958664"/>
+     <vertex x="4.537323" y="-12.3268394" z="-4.72680664"/>
+     <vertex x="7.93463898" y="-27.5775032" z="9.98843765"/>
+     <vertex x="0.421081543" y="5.61426735" z="-8.60852051"/>
+     <vertex x="12.3261261" y="-13.563633" z="4.51253128"/>
+     <vertex x="16.1827927" y="1.68265724" z="1.39694595"/>
+     <vertex x="15.5365906" y="-4.32756233" z="12.6869469"/>
+     <vertex x="10.6111832" y="5.82665253" z="0.898136139"/>
+     <vertex x="17.4427719" y="31.4720421" z="8.87353897"/>
+     <vertex x="12.0441055" y="26.3461018" z="-6.36987305"/>
+     <vertex x="24.0565109" y="14.3834944" z="19.3681259"/>
+     <vertex x="22.7835007" y="4.58239746" z="9.01922989"/>
+     <vertex x="18.522522" y="7.30418015" z="12.5521431"/>
+     <vertex x="28.9321213" y="13.7365761" z="16.4704323"/>
+     <vertex x="-7.55173111" y="46.9222527" z="-16.8204346"/>
+     <vertex x="-6.37335968" y="40.1042175" z="-15.9479828"/>
+     <vertex x="-6.3662262" y="40.2181625" z="-15.9737244"/>
+     <vertex x="-6.35909271" y="40.1042175" z="-15.9994659"/>
+     <vertex x="-5.56721497" y="39.7352982" z="-18.4703064"/>
+     <vertex x="-7.20154572" y="40.0704384" z="-14.467041"/>
+     <vertex x="-1.22055054" y="45.4402161" z="-7.83427429"/>
+     <vertex x="10.4795685" y="42.0145073" z="2.91058731"/>
+     <vertex x="3.39391327" y="45.746048" z="-11.1455383"/>
+     <vertex x="14.5126343" y="42.9484558" z="-0.515396118"/>
+     <vertex x="27.6101761" y="26.9419823" z="12.387722"/>
+     <vertex x="22.2303391" y="27.9851379" z="16.4192696"/>
+     <vertex x="26.7067947" y="32.1009598" z="12.7559547"/>
+     <vertex x="21.3433456" y="32.3521423" z="4.71100235"/>
+    </vertices>
+    <triangles>
+     <triangle v1="6" v2="2" v3="3"/>
+     <triangle v1="0" v2="1" v3="7"/>
+     <triangle v1="0" v2="4" v3="1"/>
+     <triangle v1="10" v2="1" v3="35"/>
+     <triangle v1="7" v2="1" v3="10"/>
+     <triangle v1="11" v2="10" v3="35"/>
+     <triangle v1="14" v2="20" v3="15"/>
+     <triangle v1="38" v2="35" v3="1"/>
+     <triangle v1="14" v2="18" v3="20"/>
+     <triangle v1="11" v2="35" v3="17"/>
+     <triangle v1="35" v2="36" v3="17"/>
+     <triangle v1="9" v2="22" v3="13"/>
+     <triangle v1="22" v2="17" v3="62"/>
+     <triangle v1="25" v2="24" v3="23"/>
+     <triangle v1="23" v2="24" v3="27"/>
+     <triangle v1="28" v2="30" v3="31"/>
+     <triangle v1="18" v2="23" v3="43"/>
+     <triangle v1="35" v2="38" v3="46"/>
+     <triangle v1="43" v2="23" v3="27"/>
+     <triangle v1="38" v2="43" v3="41"/>
+     <triangle v1="27" v2="28" v3="43"/>
+     <triangle v1="43" v2="28" v3="31"/>
+     <triangle v1="54" v2="55" v3="49"/>
+     <triangle v1="22" v2="62" v3="61"/>
+     <triangle v1="61" v2="62" v3="57"/>
+     <triangle v1="59" v2="58" v3="60"/>
+     <triangle v1="17" v2="36" v3="62"/>
+     <triangle v1="36" v2="64" v3="63"/>
+     <triangle v1="51" v2="68" v3="69"/>
+     <triangle v1="0" v2="5" v3="4"/>
+     <triangle v1="3" v2="2" v3="6"/>
+     <triangle v1="8" v2="11" v3="9"/>
+     <triangle v1="12" v2="10" v3="11"/>
+     <triangle v1="15" v2="20" v3="4"/>
+     <triangle v1="38" v2="4" v3="20"/>
+     <triangle v1="1" v2="4" v3="38"/>
+     <triangle v1="9" v2="11" v3="17"/>
+     <triangle v1="9" v2="17" v3="22"/>
+     <triangle v1="13" v2="22" v3="61"/>
+     <triangle v1="27" v2="24" v3="26"/>
+     <triangle v1="31" v2="30" v3="32"/>
+     <triangle v1="33" v2="31" v3="32"/>
+     <triangle v1="19" v2="34" v3="23"/>
+     <triangle v1="19" v2="23" v3="18"/>
+     <triangle v1="36" v2="35" v3="46"/>
+     <triangle v1="38" v2="20" v3="18"/>
+     <triangle v1="38" v2="18" v3="43"/>
+     <triangle v1="46" v2="38" v3="41"/>
+     <triangle v1="36" v2="46" v3="50"/>
+     <triangle v1="41" v2="43" v3="50"/>
+     <triangle v1="46" v2="41" v3="50"/>
+     <triangle v1="50" v2="43" v3="31"/>
+     <triangle v1="50" v2="49" v3="55"/>
+     <triangle v1="36" v2="50" v3="51"/>
+     <triangle v1="50" v2="31" v3="49"/>
+     <triangle v1="50" v2="55" v3="51"/>
+     <triangle v1="51" v2="55" v3="53"/>
+     <triangle v1="67" v2="68" v3="53"/>
+     <triangle v1="63" v2="57" v3="62"/>
+     <triangle v1="60" v2="58" v3="59"/>
+     <triangle v1="63" v2="62" v3="36"/>
+     <triangle v1="65" v2="63" v3="64"/>
+     <triangle v1="36" v2="51" v3="64"/>
+     <triangle v1="51" v2="53" v3="68"/>
+     <triangle v1="15" v2="4" v3="5" paint_color="1C"/>
+     <triangle v1="8" v2="9" v3="13" paint_color="1C"/>
+     <triangle v1="49" v2="31" v3="33" paint_color="1C"/>
+     <triangle v1="49" v2="33" v3="54" paint_color="1C"/>
+     <triangle v1="64" v2="51" v3="70" paint_color="1C"/>
+     <triangle v1="69" v2="68" v3="67" paint_color="1C"/>
+     <triangle v1="7" v2="5" v3="0" paint_color="1C"/>
+     <triangle v1="10" v2="12" v3="7" paint_color="1C"/>
+     <triangle v1="12" v2="11" v3="8" paint_color="1C"/>
+     <triangle v1="14" v2="19" v3="18" paint_color="1C"/>
+     <triangle v1="29" v2="28" v3="27" paint_color="1C"/>
+     <triangle v1="26" v2="29" v3="27" paint_color="1C"/>
+     <triangle v1="32" v2="28" v3="29" paint_color="1C"/>
+     <triangle v1="30" v2="28" v3="32" paint_color="1C"/>
+     <triangle v1="23" v2="34" v3="25" paint_color="1C"/>
+     <triangle v1="55" v2="56" v3="53" paint_color="1C"/>
+     <triangle v1="54" v2="56" v3="55" paint_color="1C"/>
+     <triangle v1="67" v2="53" v3="56" paint_color="1C"/>
+     <triangle v1="57" v2="63" v3="65" paint_color="1C"/>
+     <triangle v1="66" v2="65" v3="64" paint_color="1C"/>
+     <triangle v1="70" v2="66" v3="64" paint_color="1C"/>
+     <triangle v1="69" v2="70" v3="51" paint_color="1C"/>
+     <triangle v1="7" v2="15" v3="5" paint_color="5C"/>
+     <triangle v1="61" v2="37" v3="13" paint_color="5C"/>
+     <triangle v1="34" v2="26" v3="25" paint_color="5C"/>
+     <triangle v1="45" v2="29" v3="26" paint_color="5C"/>
+     <triangle v1="21" v2="44" v3="40" paint_color="5C"/>
+     <triangle v1="19" v2="40" v3="34" paint_color="5C"/>
+     <triangle v1="16" v2="42" v3="21" paint_color="5C"/>
+     <triangle v1="45" v2="26" v3="34" paint_color="5C"/>
+     <triangle v1="40" v2="47" v3="45" paint_color="5C"/>
+     <triangle v1="39" v2="52" v3="42" paint_color="5C"/>
+     <triangle v1="45" v2="33" v3="29" paint_color="5C"/>
+     <triangle v1="47" v2="33" v3="45" paint_color="5C"/>
+     <triangle v1="52" v2="48" v3="42" paint_color="5C"/>
+     <triangle v1="67" v2="48" v3="52" paint_color="5C"/>
+     <triangle v1="12" v2="16" v3="7" paint_color="5C"/>
+     <triangle v1="7" v2="21" v3="15" paint_color="5C"/>
+     <triangle v1="16" v2="12" v3="8" paint_color="5C"/>
+     <triangle v1="14" v2="15" v3="40" paint_color="5C"/>
+     <triangle v1="7" v2="16" v3="21" paint_color="5C"/>
+     <triangle v1="8" v2="37" v3="16" paint_color="5C"/>
+     <triangle v1="13" v2="37" v3="8" paint_color="5C"/>
+     <triangle v1="26" v2="24" v3="25" paint_color="5C"/>
+     <triangle v1="21" v2="40" v3="15" paint_color="5C"/>
+     <triangle v1="37" v2="39" v3="16" paint_color="5C"/>
+     <triangle v1="14" v2="40" v3="19" paint_color="5C"/>
+     <triangle v1="16" v2="39" v3="42" paint_color="5C"/>
+     <triangle v1="21" v2="42" v3="44" paint_color="5C"/>
+     <triangle v1="40" v2="45" v3="34" paint_color="5C"/>
+     <triangle v1="44" v2="47" v3="40" paint_color="5C"/>
+     <triangle v1="48" v2="47" v3="42" paint_color="5C"/>
+     <triangle v1="48" v2="33" v3="47" paint_color="5C"/>
+     <triangle v1="54" v2="48" v3="67" paint_color="5C"/>
+     <triangle v1="57" v2="65" v3="61" paint_color="5C"/>
+     <triangle v1="61" v2="39" v3="37" paint_color="5C"/>
+     <triangle v1="65" v2="39" v3="61" paint_color="5C"/>
+     <triangle v1="52" v2="39" v3="65" paint_color="5C"/>
+     <triangle v1="48" v2="54" v3="33" paint_color="8"/>
+     <triangle v1="67" v2="56" v3="54" paint_color="8"/>
+     <triangle v1="65" v2="70" v3="52" paint_color="8"/>
+     <triangle v1="70" v2="67" v3="52" paint_color="8"/>
+     <triangle v1="29" v2="33" v3="32" paint_color="8"/>
+     <triangle v1="44" v2="42" v3="47" paint_color="8"/>
+     <triangle v1="65" v2="66" v3="70" paint_color="8"/>
+     <triangle v1="70" v2="69" v3="67" paint_color="8"/>
+    </triangles>
+   </mesh>
+  </object>
+  <object id="40" p:UUID="00440003-81cb-4c03-9d28-80fed5dfa1dc" type="model">
+   <mesh>
+    <vertices>
+     <vertex x="-10.4675903" y="13.4007206" z="10.4683533"/>
+     <vertex x="-12.4997711" y="5.0453968" z="16.4026527"/>
+     <vertex x="-14.9540863" y="-7.65567589" z="12.3636131"/>
+     <vertex x="-18.6510315" y="-5.24246597" z="11.9227638"/>
+     <vertex x="-9.33015442" y="5.73279381" z="4.46556473"/>
+     <vertex x="-11.0113678" y="-11.5167084" z="-0.750541687"/>
+     <vertex x="-6.57659912" y="12.8343639" z="12.2779999"/>
+     <vertex x="-3.76519775" y="-18.1910248" z="-3.67142487"/>
+     <vertex x="-7.34788513" y="-10.2325325" z="1.18587112"/>
+     <vertex x="-5.05044556" y="-17.737812" z="-7.67423248"/>
+     <vertex x="-3.0040741" y="-28.7110252" z="-6.84849548"/>
+     <vertex x="-0.447341919" y="28.7110233" z="12.2718353"/>
+     <vertex x="-0.0871429443" y="5.3136158" z="-5.14929199"/>
+     <vertex x="1.1943512" y="-26.5872307" z="-10.2246323"/>
+     <vertex x="2.9443512" y="-15.9821625" z="-13.9585495"/>
+     <vertex x="4.93676758" y="19.239603" z="-1.57296753"/>
+     <vertex x="3.98588562" y="26.4221783" z="12.6490021"/>
+     <vertex x="8.96044922" y="10.8645725" z="-4.95294189"/>
+     <vertex x="5.54179382" y="-13.8965969" z="-11.2862549"/>
+     <vertex x="8.40124512" y="-2.44351959" z="-14.8177414"/>
+     <vertex x="10.693222" y="-3.79642868" z="-11.6821518"/>
+     <vertex x="15.2460785" y="10.7430859" z="-13.7726059"/>
+     <vertex x="18.6510315" y="-0.646602631" z="-16.4026566"/>
+     <vertex x="17.9356232" y="9.90835381" z="-10.2209244"/>
+    </vertices>
+    <triangles>
+     <triangle v1="2" v2="1" v3="3"/>
+     <triangle v1="6" v2="1" v3="2"/>
+     <triangle v1="8" v2="2" v3="5"/>
+     <triangle v1="7" v2="8" v3="5"/>
+     <triangle v1="1" v2="6" v3="0"/>
+     <triangle v1="6" v2="8" v3="17"/>
+     <triangle v1="11" v2="6" v3="16"/>
+     <triangle v1="8" v2="7" v3="18"/>
+     <triangle v1="7" v2="10" v3="13"/>
+     <triangle v1="7" v2="13" v3="18"/>
+     <triangle v1="8" v2="18" v3="17"/>
+     <triangle v1="15" v2="16" v3="17"/>
+     <triangle v1="8" v2="6" v3="2"/>
+     <triangle v1="0" v2="6" v3="11"/>
+     <triangle v1="7" v2="9" v3="10"/>
+     <triangle v1="14" v2="18" v3="13"/>
+     <triangle v1="15" v2="11" v3="16"/>
+     <triangle v1="6" v2="17" v3="16"/>
+     <triangle v1="18" v2="20" v3="17"/>
+     <triangle v1="23" v2="17" v3="20"/>
+     <triangle v1="23" v2="21" v3="17"/>
+     <triangle v1="23" v2="20" v3="22"/>
+     <triangle v1="0" v2="3" v3="1" paint_color="1C"/>
+     <triangle v1="21" v2="23" v3="22" paint_color="1C"/>
+     <triangle v1="5" v2="2" v3="3" paint_color="1C"/>
+     <triangle v1="9" v2="7" v3="5" paint_color="1C"/>
+     <triangle v1="14" v2="19" v3="18" paint_color="1C"/>
+     <triangle v1="19" v2="20" v3="18" paint_color="1C"/>
+     <triangle v1="21" v2="15" v3="17" paint_color="1C"/>
+     <triangle v1="22" v2="20" v3="19" paint_color="1C"/>
+     <triangle v1="4" v2="5" v3="3" paint_color="5C"/>
+     <triangle v1="9" v2="13" v3="10" paint_color="5C"/>
+     <triangle v1="15" v2="12" v3="4" paint_color="5C"/>
+     <triangle v1="19" v2="14" v3="5" paint_color="5C"/>
+     <triangle v1="15" v2="21" v3="12" paint_color="5C"/>
+     <triangle v1="21" v2="22" v3="19" paint_color="5C"/>
+     <triangle v1="4" v2="3" v3="0" paint_color="5C"/>
+     <triangle v1="15" v2="4" v3="0" paint_color="5C"/>
+     <triangle v1="4" v2="12" v3="5" paint_color="5C"/>
+     <triangle v1="14" v2="13" v3="9" paint_color="5C"/>
+     <triangle v1="14" v2="9" v3="5" paint_color="5C"/>
+     <triangle v1="11" v2="15" v3="0" paint_color="5C"/>
+     <triangle v1="5" v2="12" v3="19" paint_color="5C"/>
+     <triangle v1="12" v2="21" v3="19" paint_color="5C"/>
+    </triangles>
+   </mesh>
+  </object>
+ </resources>
+ <build/>
+</model>

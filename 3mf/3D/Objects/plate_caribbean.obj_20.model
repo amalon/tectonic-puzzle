@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model unit="millimeter" xml:lang="en-US" xmlns="http://schemas.microsoft.com/3dmanufacturing/core/2015/02" xmlns:BambuStudio="http://schemas.bambulab.com/package/2021" xmlns:p="http://schemas.microsoft.com/3dmanufacturing/production/2015/06" requiredextensions="p">
+ <metadata name="BambuStudio:3mfVersion">1</metadata>
+ <resources>
+  <object id="9" p:UUID="00140000-81cb-4c03-9d28-80fed5dfa1dc" type="model">
+   <mesh>
+    <vertices>
+     <vertex x="-8.57466507" y="-19.435688" z="10.1590347"/>
+     <vertex x="-7.61254501" y="-17.930048" z="4.32476044"/>
+     <vertex x="-26.4675636" y="9.63103294" z="8.61045074"/>
+     <vertex x="-26.1541481" y="7.10174179" z="3.54288483"/>
+     <vertex x="-11.6890068" y="15.1949615" z="0.571212769"/>
+     <vertex x="-9.9591341" y="17.1965561" z="4.53658295"/>
+     <vertex x="-5.36966324" y="-5.24538708" z="3.88294983"/>
+     <vertex x="2.99010849" y="9.29319191" z="-0.102142334"/>
+     <vertex x="-4.1883049" y="-4.04329777" z="8.49388123"/>
+     <vertex x="5.65514755" y="19.435688" z="0.083366394"/>
+     <vertex x="4.27784348" y="-2.92953396" z="0.126220703"/>
+     <vertex x="16.5413017" y="17.2923164" z="-9.32323456"/>
+     <vertex x="6.24028397" y="-2.71535301" z="5.56974792"/>
+     <vertex x="11.8470345" y="3.96301079" z="2.27079773"/>
+     <vertex x="14.2052574" y="2.88546944" z="-4.08103943"/>
+     <vertex x="22.8343468" y="16.5146523" z="-6.84070587"/>
+     <vertex x="26.4675636" y="2.88653755" z="-10.1590347"/>
+    </vertices>
+    <triangles>
+     <triangle v1="3" v2="8" v3="2"/>
+     <triangle v1="7" v2="6" v3="3"/>
+     <triangle v1="4" v2="7" v3="3"/>
+     <triangle v1="10" v2="6" v3="7"/>
+     <triangle v1="11" v2="4" v3="9"/>
+     <triangle v1="10" v2="0" v3="1"/>
+     <triangle v1="11" v2="14" v3="7"/>
+     <triangle v1="11" v2="16" v3="14"/>
+     <triangle v1="15" v2="16" v3="11"/>
+     <triangle v1="6" v2="1" v3="0"/>
+     <triangle v1="4" v2="3" v3="2"/>
+     <triangle v1="6" v2="10" v3="1"/>
+     <triangle v1="4" v2="11" v3="7"/>
+     <triangle v1="7" v2="14" v3="10"/>
+     <triangle v1="10" v2="14" v3="13"/>
+     <triangle v1="6" v2="8" v3="3" paint_color="1C"/>
+     <triangle v1="4" v2="5" v3="9" paint_color="1C"/>
+     <triangle v1="12" v2="0" v3="10" paint_color="1C"/>
+     <triangle v1="16" v2="13" v3="14" paint_color="1C"/>
+     <triangle v1="5" v2="4" v3="2" paint_color="1C"/>
+     <triangle v1="6" v2="0" v3="8" paint_color="1C"/>
+     <triangle v1="10" v2="13" v3="12" paint_color="1C"/>
+     <triangle v1="15" v2="11" v3="9" paint_color="1C"/>
+     <triangle v1="2" v2="8" v3="5" paint_color="5C"/>
+     <triangle v1="15" v2="13" v3="16" paint_color="5C"/>
+     <triangle v1="5" v2="8" v3="9" paint_color="5C"/>
+     <triangle v1="9" v2="8" v3="13" paint_color="5C"/>
+     <triangle v1="13" v2="8" v3="12" paint_color="5C"/>
+     <triangle v1="15" v2="9" v3="13" paint_color="5C"/>
+     <triangle v1="8" v2="0" v3="12" paint_color="8"/>
+    </triangles>
+   </mesh>
+  </object>
+ </resources>
+ <build/>
+</model>
