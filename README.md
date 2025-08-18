@@ -172,6 +172,17 @@ boundaries repository](https://github.com/fraxen/tectonicplates.git).
   international date line.
 
 
+Donate
+======
+
+This model was designed to teach my home educated kids about plate tectonics in
+a fun and engaging way, however it took a significant amount of time and effort
+to create. I've intentionally made it free of charge, but if you are pleased
+with the result, please consider supporting me by donating with
+[Liberapay](https://liberapay.com/jameshogan/donate) or
+[PayPal](https://www.paypal.me/jamesahogan). Many thanks!
+
+
 3mf File Details
 ================
 
