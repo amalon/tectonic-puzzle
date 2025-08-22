@@ -101,9 +101,9 @@ PARTICULAR PURPOSE. See the GNU General Public License for more details.
 For the purposes of the GPL, the contents of this project are considered the
 "source code" (since they are the preferred form for making modifications), and
 any exported 3d meshes which derive from this project (including the
-placeholder meshes in `3mf/`, release files, and 3d prints) are considered
-"Object code", and should only be distributed according to the terms of the
-GPL, along with the following attribution notices:
+placeholder meshes in `3mf/`, renderings in `docs/`, release files, and 3d
+prints) are considered "Object code", and should only be distributed according
+to the terms of the GPL, along with the following attribution notices:
 - Copyright © 2025 James Hogan.
 - Contains tectonic plate information from [Hugo Ahlenius' World tectonic
   plates and boundaries
@@ -248,8 +248,8 @@ generate the high resolution tectonic place meshes, so you'll ideally want at
 least 32GB or RAM, preferably 64GB or plenty of swap space, and will probably
 want to ensure as many programs as possible are closed.
 
-Run Blender from a terminal, so as to see progress of the export script, since
-Blender will become unresponsive while recalculating modifiers.
+Run Blender from a terminal, so as to see progress of the export/render
+scripts, since Blender will become unresponsive while recalculating modifiers.
 
 
 Generating Core Segments
@@ -298,6 +298,21 @@ Generating Tectonic Plate Pieces
   repeatedly recalculates modifiers for each plate. Observe progress in the
   terminal. `plate_*.obj` files will be created, along with corresponding
   `plate_*.mtl` files.
+
+
+Rendering OBJ Thumbnails
+------------------------
+
+- Open `tectonic-puzzle.blend` in Blender.
+- Go to the "Scripting" workspace.
+- Enable in the view layer, and make visible, the following collections:
+  - "Stage"
+  - "Stage/Cameras"
+- Ensure all other objects are hidden or disabled in the view layer.
+- Select all cameras in the "Cameras" collections.
+- Run the render script. Expect Blender to become unresponsive for while it
+  repeatedly imports the `.obj` files for each plate. Observe progress in the
+  terminal. `.jpg` files will be created.
 
 
 Importing the OBJ files into Orca Slicer
@@ -426,3 +441,5 @@ Collections
     are exported as `plate_$name.obj`.
   - "Plates by mantle segment": Contains linked plates grouped by mantle
     segment (possibly out of date).
+- "Stage": For rendering thumbnails of each exported part.
+  - "Cameras": Cameras for each part for rendering thumbnails.
