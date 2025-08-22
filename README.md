@@ -1,3 +1,5 @@
+![Tectonic Puzzle by James Hogan](docs/banner.jpg)
+
 Tectonic Plates Puzzle for 3D Printing
 ======================================
 
