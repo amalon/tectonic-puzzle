@@ -8,9 +8,26 @@ of the Earth's tectonic plates and internal structure. This is a little smaller
 than a 10-pin bowling ball, and consists of the following parts:
 
  - 2 labelled yellow inner core hemispheres, attached together magnetically.
+   <br />
+   <img src="docs/core_inner.jpg" alt="Inner Core" title="Inner Core" width="96" />
+   <img src="docs/core_inner.jpg" alt="Inner Core" title="Inner Core" width="96" />
  - 4 labelled orange outer core quadrants.
+   <br />
+   <img src="docs/core_outer.jpg" alt="Outer Core" title="Outer Core" width="96" />
+   <img src="docs/core_outer.jpg" alt="Outer Core" title="Outer Core" width="96" />
+   <img src="docs/core_outer.jpg" alt="Outer Core" title="Outer Core" width="96" />
+   <img src="docs/core_outer.jpg" alt="Outer Core" title="Outer Core" width="96" />
    - No magnetic attachment (the outer core is liquid after all).
  - 8 unique labelled red mantle segments, attached together magnetically.
+   <br />
+   <img src="docs/mantle1.jpg" alt="Mantle 1" title="Mantle 1 (NWW)" width="96" />
+   <img src="docs/mantle2.jpg" alt="Mantle 2" title="Mantle 2 (NW)"  width="96" />
+   <img src="docs/mantle3.jpg" alt="Mantle 3" title="Mantle 3 (NE)"  width="96" />
+   <img src="docs/mantle4.jpg" alt="Mantle 4" title="Mantle 4 (NEE)" width="96" />
+   <img src="docs/mantle5.jpg" alt="Mantle 5" title="Mantle 5 (SEE)" width="96" />
+   <img src="docs/mantle6.jpg" alt="Mantle 6" title="Mantle 6 (SWW)" width="96" />
+   <img src="docs/mantle7.jpg" alt="Mantle 7" title="Mantle 7 (SW)"  width="96" />
+   <img src="docs/mantle8.jpg" alt="Mantle 8" title="Mantle 8 (SE)"  width="96" />
    - Each is additionally uniquely labelled, to aid quick assembly:
      - The first letter is "N" for Northern hemisphere or "S" for Southern
        hemisphere.
@@ -25,6 +42,43 @@ than a 10-pin bowling ball, and consists of the following parts:
      exaggerated 5x.
  - 28 colourful tectonic plate pieces, magnetically attached to the mantle
    segments, on a single 256mm build plate.
+   - 20 main plate groups. Micro-plates that are too small for magnets are
+     physically connected to neighbouring plates, but separated by a trench to
+     mantle depth.
+     <br />
+     <img src="docs/plate_caribbean.jpg" alt="Caribbean" title="Caribbean, Panama, North Andes" width="96" />
+     <img src="docs/plate_cocos.jpg" alt="Cocos" title="Cocos" width="96" />
+     <img src="docs/plate_nazca.jpg" alt="Nazca" title="Nazca, Easter, Juan Fernández, (Galapagos)" width="96" />
+     <img src="docs/plate_scotia.jpg" alt="Scotia" title="Scotia, Sandwich" width="96" />
+     <img src="docs/plate_arabia.jpg" alt="Arabia" title="Arabia, Aegean Sea, Anatolia" width="96" />
+     <img src="docs/plate_india.jpg" alt="India" title="India, Burma" width="96" />
+     <img src="docs/plate_somalia.jpg" alt="Somalia" title="Somalia" width="96" />
+     <img src="docs/plate_sunda.jpg" alt="Sunda" title="Sunda" width="96" />
+     <img src="docs/plate_yangtze.jpg" alt="Yangtze" title="Yangtze, Okinawa" width="96" />
+     <img src="docs/plate_amur.jpg" alt="Amur" title="Amur" width="96" />
+     <img src="docs/plate_okhotsk.jpg" alt="Okhotsk" title="Okhotsk" width="96" />
+     <img src="docs/plate_philippine.jpg" alt="Philippine" title="Philippine Sea, Mariana" width="96" />
+     <img src="docs/plate_caroline.jpg" alt="Caroline" title="Caroline, Banda Sea, Birds Head, Maoke, Molucca Sea, North Bismarck, South Bismarck, Solomon Sea, Timor, Woodlark, (Manus)" width="96" />
+   - 6 major plate groups are split in halves long-ways to reduce wastage due to
+     filament changes during printing.
+     <br />
+     <img src="docs/plate_north_america2.jpg" alt="North America 2" title="North America 2, Rivera, Juan de Fuca" width="96" />
+     <img src="docs/plate_north_america1.jpg" alt="North America 1" title="North America 1" width="96" />
+     <img src="docs/plate_south_america2.jpg" alt="South America 2" title="South America 2, Altiplano" width="96" />
+     <img src="docs/plate_south_america1.jpg" alt="South America 1" title="South America 1" width="96" />
+     <img src="docs/plate_africa2.jpg" alt="Africa 2" title="Africa 2" width="96" />
+     <img src="docs/plate_africa1.jpg" alt="Africa 1" title="Africa 1" width="96" />
+     <img src="docs/plate_eurasia1.jpg" alt="Eurasia 1" title="Eurasia 1" width="96" />
+     <img src="docs/plate_eurasia2.jpg" alt="Eurasia 2" title="Eurasia 2" width="96" />
+     <img src="docs/plate_australia1.jpg" alt="Australia 1" title="Australia 1, New Hebrides, Balmoral Reef, Conway Reef, Niuafo'ou, Tonga 1" width="96" />
+     <img src="docs/plate_australia2.jpg" alt="Australia 2" title="Australia 2, Kermadec, Tonga 2" width="96" />
+     <img src="docs/plate_antarctica2.jpg" alt="Antarctica 2" title="Antarctica 2, Shetland" width="96" />
+     <img src="docs/plate_antarctica1.jpg" alt="Antarctica 1" title="Antarctica 1" width="96" />
+   - The Pacific plate is split into thirds.
+     <br />
+     <img src="docs/plate_pacific1.jpg" alt="Pacific 1" title="Pacific 1" width="96" />
+     <img src="docs/plate_pacific2.jpg" alt="Pacific 2" title="Pacific 2" width="96" />
+     <img src="docs/plate_pacific3.jpg" alt="Pacific 3" title="Pacific 3" width="96" />
    - A fixed depth of mantle is embedded in each piece to allow space for
      magnets and to physically connect grouped microplates.
    - Each is shaped corresponding to the topology of the land and ocean floor,
@@ -38,12 +92,6 @@ than a 10-pin bowling ball, and consists of the following parts:
        exaggerated a further 2x relative to a 1/7.5 scaled down 720x360 DEM.
        This exaggerates fine features without scaling up the larger features or
        plate depths.
-   - 20 main plate groups. Micro-plates that are too small for magnets are
-     physically connected to neighbouring plates, but separated by a trench to
-     mantle depth.
-   - 6 major plate groups are split in halves long-ways to reduce wastage due to
-     filament changes during printing.
-   - The Pacific plate is split into thirds.
 
 The tectonic plate pieces are multi-coloured on all sides. The colours have been
 limited to 4 (as supported by the BambuLab AMS lite) with the following colours
