@@ -3,6 +3,9 @@
 Tectonic Plates Puzzle for 3D Printing
 ======================================
 
+*By James Hogan. Originally published at
+[github.com/amalon/tectonic-puzzle](https://github.com/amalon/tectonic-puzzle).*
+
 This project is to create a 20cm diameter 3D printable magnetic globe puzzle of
 the Earth's tectonic plates and internal structure. This is a little smaller
 than a 10-pin bowling ball, and consists of the following parts:

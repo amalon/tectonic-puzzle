@@ -1,4 +1,58 @@
-Please see README.md for licensing details.
+This Tectonic Puzzle project was originally published at
+https://github.com/amalon/tectonic-puzzle
+
+The tectonic plate boundaries and tectonic plate shapes found in the raw mesh
+data of the objects in the "Plate Boundaries" and "Tectonic Plates" collections
+of the `tectonic-puzzle.blend` file (excluding all dynamic modifiers) are
+imported (largely unmodified) from [Hugo Ahlenius' World tectonic plates and
+boundaries repository](https://github.com/fraxen/tectonicplates.git).
+- They're made available here under the [Open Data Commons Attribution
+  license](http://opendatacommons.org/licenses/by/1.0/).
+- Attribution: James Hogan, Hugo Ahlenius, Nordpil and Peter Bird.
+- Plates have been combined together, and joined when split across the
+  international date line.
+
+All remaining contents of this project (especially the Makefile and all other
+parts of the blend file such as other meshes, geometry nodes, and python
+scripts, but excluding [data files downloaded by the
+Makefile](docs/development.md#sources) are free software: you can redistribute
+it and/or modify it under the terms of the [GNU General Public
+License](https://www.gnu.org/licenses/gpl-3.0.en.html) as published by the Free
+Software Foundation, either version 3 of the License, or (at your option) any
+later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+For the purposes of the GPL, the contents of this project are considered the
+"source code" (since they are the preferred form for making modifications), and
+any exported 3d meshes which derive from this project (including the
+placeholder meshes in `3mf/`, renderings in `docs/`, release files, and 3d
+prints) are considered "Object code", and should only be distributed according
+to the terms of the GPL, along with the following attribution notices:
+- Copyright © 2025 James Hogan.
+- Contains tectonic plate information from [Hugo Ahlenius' World tectonic
+  plates and boundaries
+  repository](https://github.com/fraxen/tectonicplates.git), which is made
+  available under the [Open Data Commons Attribution
+  license](http://opendatacommons.org/licenses/by/1.0/).
+- Contains heightmap information based on GEBCO 2020 Grid and [preprocessed by
+  Sean
+  Bradley](https://sbcode.net/topoearth/gebco-heightmap-5400x2700/#license)
+- Contains colour information based on the specular texture map of Earth from
+  [Solar System Scope](https://www.solarsystemscope.com/textures/).
+- Contains Moho depth information from the GEMMA crustal model.
+  D. Sampietro, M. Reguzzoni, M. Negretti (2013). The GEMMA crustal model:
+  first validation and data distribution. In: Proceedings of the ESA Living
+  Planet Symposium, 9-13 September 2013, Edinburgh (UK), ESA SP-722
+
+3D printing of this model by others for fun or profit is encouraged, as is
+making improvements to it, as long as the terms of the GPL are followed. I.e.
+please make clear where you got it, and document the attributions above. Any
+modifications can only be distributed under a compatible license, and
+distribution of the resulting models should also make the altered source files
+available, as prescribed by the GPL.
 
 # GNU GENERAL PUBLIC LICENSE
 Version 3, 29 June 2007
