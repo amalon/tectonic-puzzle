@@ -8,7 +8,13 @@ Tectonic Plates Puzzle for 3D Printing
 
 This project is to create a 20cm diameter 3D printable magnetic globe puzzle of
 the Earth's tectonic plates and internal structure. This is a little smaller
-than a 10-pin bowling ball, and consists of the following parts:
+than a 10-pin bowling ball.
+
+Watch the following YouTube video to see it in action:
+
+[![3D Printed Tectonic Plate Puzzle](https://img.youtube.com/vi/p5AyktacpZE/0.jpg)](https://www.youtube.com/watch?v=p5AyktacpZE)
+
+The puzzle consists of the following parts:
 
  - 2 labelled yellow inner core hemispheres, attached together magnetically.
    <br />
