@@ -3,4 +3,7 @@ textures/
 *.blend1
 *.obj
 *.mtl
+/*.jpg
+/*.png
+guide/*.png
 tectonic-puzzle.3mf

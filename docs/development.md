@@ -63,6 +63,9 @@ final high resolution meshes.
 Model Configuration
 -------------------
 
+The model is generated using the "1. Parts generation" scene. Other scenes are
+used for rendering thumbnails, and images for the guide document.
+
 The "Configuration" collection contains a "Model Configuration" object, with
 the following custom properties which control the generation of the models.
 
@@ -146,8 +149,6 @@ Collections
     are exported as `plate_$name.obj`.
   - "Plates by mantle segment": Contains linked plates grouped by mantle
     segment (possibly out of date).
-- "Stage": For rendering thumbnails of each exported part.
-  - "Cameras": Cameras for each part for rendering thumbnails.
 
 
 Generating High Resolution Models from Source
@@ -204,7 +205,7 @@ Generating Tectonic Plate Pieces
 - Select all objects in the "Plate Slices" and "Unsliced Plates" collections.
 - If generating placeholder meshes for `3mf/`, set `placeholder = True` in the
   script.
-- Run the export script. Expect Blender to become unresponsive for while it
+- Run the export script. Expect Blender to become unresponsive while it
   repeatedly recalculates modifiers for each plate. Observe progress in the
   terminal. `plate_*.obj` files will be created, along with corresponding
   `plate_*.mtl` files.
@@ -213,16 +214,64 @@ Generating Tectonic Plate Pieces
 Rendering OBJ Thumbnails
 ------------------------
 
+- Ensure all relevant `.obj` files have been generated (see above).
 - Open `tectonic-puzzle.blend` in Blender.
 - Go to the "Scripting" workspace.
-- Enable in the view layer, and make visible, the following collections:
-  - "Stage"
-  - "Stage/Cameras"
-- Ensure all other objects are hidden or disabled in the view layer.
-- Select all cameras in the "Cameras" collections.
-- Run the render script. Expect Blender to become unresponsive for while it
-  repeatedly imports the `.obj` files for each plate. Observe progress in the
-  terminal. `.jpg` files will be created.
+- Switch to the "2. Thumbnails" scene.
+- Select all cameras in the "Thumbnail Cameras" collections.
+- Open the "Render objs using selected cameras" script.
+- Run the script. Expect Blender to become unresponsive while it repeatedly
+  imports the `.obj` files for each plate. Observe progress in the terminal.
+- `.jpg` files will be created in the same directory as the blend file. You may
+  wish to compare and copy them into the `docs/` folder.
+
+
+Rendering Guide Images - Introduction & Building the Interior
+-------------------------------------------------------------
+
+- Ensure all relevant `.obj` files have been generated (see above).
+- Open `tectonic-puzzle.blend` in Blender.
+- Go to the "Scripting" workspace.
+- For each of the scenes "3.1. Guide - Introduction" and "3.2. Guide -
+  Building Interior".
+  - Switch to the scene.
+  - Select all empties in the "Cross Section" or "Building Interior"
+    collection.
+  - For black & white images, first set `material_emit_white` to 1.0 in the
+    script.
+  - Run the "Load objs into selected empties" script. Expect Blender to become
+    unresponsive while it loads the `.obj` files for each plate.
+  - Select "Render Animation" from the "Render" menu.
+  - `.png` files will be created in the `guide/` directory where they are
+    immediately available to the `guide/guide.svg` Inkscape document.
+  - To clean up, either undo beyond the script execution, or delete the
+    hierarchy of all the collections inside "Stage/Imported objects".
+
+
+Rendering Guide Images - Individual Plates
+------------------------------------------
+
+- Ensure all relevant `.obj` files have been generated (see above).
+- Open `tectonic-puzzle.blend` in Blender.
+- Go to the "Scripting" workspace.
+- Switch to the "3.3. Guide - Plates" scene.
+- Select all cameras in the "Individual Parts" collection.
+- Open the "Render objs using selected cameras" script.
+- For black & white images, first set `material_emit_white` to 1.0 in the
+  script.
+- Run the script. Expect Blender to become unresponsive while it repeatedly
+  imports the `.obj` files for each plate. Observe progress in the terminal.
+- `.png` files will be created in the same directory as the blend file. Move
+  them into the `guide/` folder for them to become available to the
+  `guide/guide.svg` Inkscape document.
+
+
+Generating PDF Guides
+---------------------
+
+- Ensure all guide images have been rendered (see above).
+- Open `guide/guide.svg` in Inkscape.
+- Export as a PDF file.
 
 
 Importing the OBJ files into Orca Slicer
