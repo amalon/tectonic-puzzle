@@ -92,7 +92,7 @@ Part                                         | Name                   | Quantity
 ![Arabia](plate_arabia.jpg)                  | Arabia                 |        1 |           5 | Red, Dark Grey, Blue, Green | Arabian minor plate, microplates: Aegean Sea, Anatolian.
 ![India](plate_india.jpg)                    | India                  |        1 |           5 | Red, Dark Grey, Blue, Green | Indian, Burma minor plates.
 ![Somalia](plate_somalia.jpg)                | Somalia                |        1 |           5 | Red, Dark Grey, Blue, Green | Somali minor plate.
-![Australia 1](plate_australia1.jpg)         | Australia 1            |        1 |           5 | Red, Dark Grey, Blue, Green | Australian major plate (north half), New Hebrides minor plate, microplates: Balmoral Reef, Conway Reef, Niuafo'ou, Tonga (north half).
+![Australia 1](plate_australia1.jpg)         | Australia 1            |        1 |           5 | Red, Dark Grey, Blue, Green | Australian major plate (north half), New Hebrides minor plate, microplates: Balmoral Reef, Conway Reef, Niuafo'ou, Tonga (north half), (Futuna).
 ![Australia 2](plate_australia2.jpg)         | Australia 2            |        1 |           5 | Red, Dark Grey, Blue, Green | Australian major plate (south half), microplates: Kermadec, Tonga (south half).
 ![Sunda](plate_sunda.jpg)                    | Sunda                  |        1 |           5 | Red, Dark Grey, Blue, Green | Sunda minor plate.
 ![Yangtze](plate_yangtze.jpg)                | Yangtze                |        1 |           5 | Red, Dark Grey, Blue, Green | Yangtze minor plate, Okinawa microplate.
