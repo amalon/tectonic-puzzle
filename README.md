@@ -134,6 +134,14 @@ Note that due to a few small parts and the use of strong magnets, this model is
 not suitable for young children.
 
 
+User Guide
+==========
+
+A PDF user guide is available for download as release files on Github.
+Get `guide.pdf` for the colour version, or `guide_bw.pdf` for the black & white
+version.
+
+
 Print Guide
 ===========
 
