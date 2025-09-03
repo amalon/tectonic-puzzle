@@ -137,7 +137,8 @@ not suitable for young children.
 User Guide
 ==========
 
-A PDF user guide is available for download as release files on Github.
+A PDF user guide is available for download as part of the
+[Github releases](https://github.com/amalon/tectonic-puzzle/releases).
 Get `guide.pdf` for the colour version, or `guide_bw.pdf` for the black & white
 version.
 
@@ -148,7 +149,8 @@ Print Guide
 3D printing of this model by others for fun or profit is encouraged, as is
 making improvements to it, please refer to [License](#license) for details.
 
-For printing, please download the 3MF file from the latest release on Github
+For printing, please download the 3MF file from the latest
+[release on Github](https://github.com/amalon/tectonic-puzzle/releases)
 rather than the source files in this repository. See the [Print
 Guide](docs/printing.md) for details.
 

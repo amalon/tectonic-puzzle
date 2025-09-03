@@ -312,7 +312,8 @@ The 3mf files are exported from Orca Slicer. I have not tested them in any
 other slicer. You should always verify that the supports do not intersect other
 tectonic plate pieces.
 
-Note: please download the final 3mf with high resolution models from a release
+Note: please download the final 3mf with high resolution models from a
+[release on Github](https://github.com/amalon/tectonic-puzzle/releases)
 rather than using the files straight from the repository, unless you're an
 advanced user wanting to make modifications.
 

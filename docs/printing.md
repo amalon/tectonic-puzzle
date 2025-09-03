@@ -2,10 +2,12 @@ Print Guide
 ===========
 
 3D printing of this model by others for fun or profit is encouraged. Pease
-download the 3MF file from the latest release on Github rather than the source
-files in this repository, as the high resolution models are largely generated
-procedurally from this repository and various downloaded resources by Blender
-geometry nodes (see the [Development Guide](development.md)).
+download the 3MF file from the
+[latest release on Github](https://github.com/amalon/tectonic-puzzle/releases)
+rather than the source files in this repository, as the high resolution models
+are largely generated procedurally from this repository and various downloaded
+resources by Blender geometry nodes (see the
+[Development Guide](development.md)).
 
 The 3mf files are exported from Orca Slicer. I have not tested them in any
 other slicer.
