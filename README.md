@@ -150,9 +150,11 @@ Print Guide
 making improvements to it, please refer to [License](#license) for details.
 
 For printing, please download the 3MF file from the latest
-[release on Github](https://github.com/amalon/tectonic-puzzle/releases)
-rather than the source files in this repository. See the [Print
-Guide](docs/printing.md) for details.
+[release on Github](https://github.com/amalon/tectonic-puzzle/releases) or from
+[Maker World](https://makerworld.com/en/models/1763244-tectonic-plate-magnetic-globe-puzzle)
+rather than the source files in this repository.
+
+See the [Print Guide](docs/printing.md) for details.
 
 
 Development
