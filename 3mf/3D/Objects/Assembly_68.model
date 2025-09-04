@@ -2,7 +2,7 @@
 <model unit="millimeter" xml:lang="en-US" xmlns="http://schemas.microsoft.com/3dmanufacturing/core/2015/02" xmlns:BambuStudio="http://schemas.bambulab.com/package/2021" xmlns:p="http://schemas.microsoft.com/3dmanufacturing/production/2015/06" requiredextensions="p">
  <metadata name="BambuStudio:3mfVersion">1</metadata>
  <resources>
-  <object id="37" p:UUID="00440000-81cb-4c03-9d28-80fed5dfa1dc" type="model">
+  <object id="29" p:UUID="00440000-81cb-4c03-9d28-80fed5dfa1dc" type="model">
    <mesh>
     <vertices>
      <vertex x="-11.2064743" y="3.66812134" z="12.79842"/>
@@ -75,7 +75,7 @@
     </triangles>
    </mesh>
   </object>
-  <object id="38" p:UUID="00440001-81cb-4c03-9d28-80fed5dfa1dc" type="model">
+  <object id="30" p:UUID="00440001-81cb-4c03-9d28-80fed5dfa1dc" type="model">
    <mesh>
     <vertices>
      <vertex x="-15.9431076" y="-0.398042679" z="2.72283936"/>
@@ -112,7 +112,7 @@
     </triangles>
    </mesh>
   </object>
-  <object id="39" p:UUID="00440002-81cb-4c03-9d28-80fed5dfa1dc" type="model">
+  <object id="31" p:UUID="00440002-81cb-4c03-9d28-80fed5dfa1dc" type="model">
    <mesh>
     <vertices>
      <vertex x="-28.9321175" y="-17.1227989" z="-16.9904938"/>
@@ -321,7 +321,7 @@
     </triangles>
    </mesh>
   </object>
-  <object id="40" p:UUID="00440003-81cb-4c03-9d28-80fed5dfa1dc" type="model">
+  <object id="32" p:UUID="00440003-81cb-4c03-9d28-80fed5dfa1dc" type="model">
    <mesh>
     <vertices>
      <vertex x="-10.4675903" y="13.4007206" z="10.4683533"/>

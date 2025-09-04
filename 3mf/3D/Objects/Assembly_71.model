@@ -2,7 +2,7 @@
 <model unit="millimeter" xml:lang="en-US" xmlns="http://schemas.microsoft.com/3dmanufacturing/core/2015/02" xmlns:BambuStudio="http://schemas.bambulab.com/package/2021" xmlns:p="http://schemas.microsoft.com/3dmanufacturing/production/2015/06" requiredextensions="p">
  <metadata name="BambuStudio:3mfVersion">1</metadata>
  <resources>
-  <object id="48" p:UUID="00470000-81cb-4c03-9d28-80fed5dfa1dc" type="model">
+  <object id="40" p:UUID="00470000-81cb-4c03-9d28-80fed5dfa1dc" type="model">
    <mesh>
     <vertices>
      <vertex x="-20.6698532" y="-14.4133425" z="23.8443298"/>
@@ -66,7 +66,7 @@
     </triangles>
    </mesh>
   </object>
-  <object id="49" p:UUID="00470001-81cb-4c03-9d28-80fed5dfa1dc" type="model">
+  <object id="41" p:UUID="00470001-81cb-4c03-9d28-80fed5dfa1dc" type="model">
    <mesh>
     <vertices>
      <vertex x="-23.2578926" y="-7.53929853" z="5.57776642"/>
