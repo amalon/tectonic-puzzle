@@ -67,7 +67,7 @@ The model is generated using the "1. Parts generation" scene. Other scenes are
 used for rendering thumbnails, and images for the guide document.
 
 The "Configuration" collection contains a "Model Configuration" object, with
-the following custom properties which control the generation of the models.
+custom properties which control the generation of the models.
 
 Each property has a description which can be seen by hovering the mouse over
 it.
@@ -168,6 +168,7 @@ Generating Core Segments
 
 - Open `tectonic-puzzle.blend` in Blender.
 - Go to the "Scripting" workspace.
+- Open the "Export selected plates or core segments" script.
 - Enable in the view layer, and make visible, the following collections in the
   "Core" collection:
   - "Base"
@@ -196,6 +197,7 @@ Generating Tectonic Plate Pieces
 
 - Open `tectonic-puzzle.blend` in Blender.
 - Go to the "Scripting" workspace.
+- Open the "Export selected plates or core segments" script.
 - Enable in the view layer, and make visible, the following collections in the
   "Tectonic Plates" collection:
   - "Modifier Templates"
