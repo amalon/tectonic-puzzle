@@ -52,7 +52,7 @@ Inserting Magnets
 -----------------
 
 The magnet slots have a groove under them to allow them to be wiggled out with
-a sharp object, so you can test that each one fits snuggly without wobbling
+a sharp object, so you can test that each one fits snugly without wobbling
 before removing them to apply glue. I used superglue which worked effectively.
 For many of them you may have to carefully scrape the overhanging corner with a
 craft knife to allow the magnets to be pushed in.
