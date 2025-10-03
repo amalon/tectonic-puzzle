@@ -237,8 +237,7 @@ Rendering Guide Images - Introduction & Building the Interior
 - For each of the scenes "3.1. Guide - Introduction" and "3.2. Guide -
   Building Interior".
   - Switch to the scene.
-  - Select all empties in the "Cross Section" or "Building Interior"
-    collection.
+  - Select all empties in the "Introduction" or "Building Interior" collection.
   - For black & white images, first set `material_emit_white` to 1.0 in the
     script.
   - Run the "Load objs into selected empties" script. Expect Blender to become
@@ -303,7 +302,7 @@ $ make tectonic-puzzle.3mf
   - Switch the paint tool to fill.
   - Right click in each of the segment's magnet holes against the base plate to
     disable supports. There are 3 downward facing faces where supports need
-    disabling.
+    disabling in each slot.
   - Exit the support painting tool.
 
 

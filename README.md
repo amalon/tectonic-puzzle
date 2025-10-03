@@ -44,7 +44,7 @@ The puzzle consists of the following parts:
        hemisphere.
      - The second letter may be repeated for far east or far west segments, i.e.
        the night-time hemisphere at noon GMT.
-   - Each has 3 magnet slots to attach to 3 other mantle segments.
+   - Each has 6 magnet slots to attach to 3 other mantle segments.
    - Each has magnet slots to attach the 28 tectonic plate pieces to.
    - The outside shape corresponds to the approximate shape of the Moho
      discontinuity, the boundary between the mantle and the crust, vertically

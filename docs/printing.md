@@ -59,11 +59,10 @@ before removing them to apply glue. I used superglue which worked effectively.
 For many of them you may have to carefully scrape the overhanging corner with a
 craft knife to allow the magnets to be pushed in.
 
-I chose to orient the magnets between mantle pieces so that all the northern
-hemisphere segments were interchangeable by rotating around the poles, and
-similarly for the southern hemisphere segments. All tectonic plate magnets were
-oriented the same way so that any plate could roughly fit anywhere on the
-mantle.
+I recommend orienting the magnets between mantle pieces with magnets in each
+face oriented in opposite directions, and all faces similarly so that all the
+segments are interchangeable. All tectonic plate magnets were oriented the same
+way so that any plate could roughly fit anywhere on the mantle.
 
 
 Printable Parts List
@@ -128,4 +127,4 @@ Filament         | Red                      | Approx 810g
 Filament         | Dark Grey                | Approx 110g
 Filament         | Green                    | Approx 120g
 Filament         | Blue                     | Approx 310g
-Circular magnets | 8mm diameter x 2mm thick | 82 (28x2=56 between tectonic plate pieces and mantle, 8x3=24 between mantle segments, 2 between inner core hemispheres)
+Circular magnets | 8mm diameter x 2mm thick | 106 (28x2=56 between tectonic plate pieces and mantle, 8x6=48 between mantle segments, 2 between inner core hemispheres)
