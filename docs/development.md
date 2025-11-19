@@ -50,6 +50,15 @@ boundaries repository](https://github.com/fraxen/tectonicplates.git).
 - Plates have been combined together, and joined when split across the
   international date line.
 
+The volcano locations found in the mesh attributes of the
+"GVP\_Volcano\_List\_Holocene" mesh in the "Volcano" collection of the
+`tectonic-puzzle.blend` file are Public Domain, and are imported with
+permission from the [Global Volcanism
+Program](https://volcano.si.edu/volcanolist_holocene.cfm), 2025. [Database]
+Volcanoes of the World (v. 5.3.2; 30 Sep 2025). Distributed by Smithsonian
+Institution, compiled by Venzke, E.
+https://doi.org/10.5479/si.GVP.VOTW5-2025.5.3
+
 
 Blender File Details
 ====================

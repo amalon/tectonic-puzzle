@@ -88,6 +88,10 @@ The puzzle consists of the following parts:
      <img src="docs/plate_pacific1.jpg" alt="Pacific 1" title="Pacific 1" width="96" />
      <img src="docs/plate_pacific2.jpg" alt="Pacific 2" title="Pacific 2" width="96" />
      <img src="docs/plate_pacific3.jpg" alt="Pacific 3" title="Pacific 3" width="96" />
+   - The locations of volcanoes are shown as red dots on the surface (which may
+     merge where volcanoes are close together). Most volcanoes are a short
+     distance from plate boundaries, however some are so close to plate
+     boundaries they aren't visible in this model.
    - A fixed depth of mantle is embedded in each piece to allow space for
      magnets and to physically connect grouped microplates.
    - Each is shaped corresponding to the topology of the land and ocean floor,
@@ -114,8 +118,8 @@ being prioritised:
    on the sides of the plates. Though not heavily used, its an important aspect
    of the model to represent the thickness of the crust, and representing crust
    with green to allow for other colours wouldn't look right.
- - Red represents mantle. Each plate must embed a fixed depth of mantle to
-   increase its thickness (especially thin oceanic crust).
+ - Red represents mantle and volcanoes. Each plate must embed a fixed depth of
+   mantle to increase its thickness (especially thin oceanic crust).
 
 The data and geometry nodes exist in the blend file to generate colouring for
 sand and ice, however these haven't been used due to the priorities described
@@ -191,6 +195,15 @@ boundaries repository](https://github.com/fraxen/tectonicplates.git).
 - Plates have been combined together, and joined when split across the
   international date line.
 
+The volcano locations found in the mesh attributes of the
+"GVP\_Volcano\_List\_Holocene" mesh in the "Volcano" collection of the
+`tectonic-puzzle.blend` file are Public Domain, and are imported with
+permission from the [Global Volcanism
+Program](https://volcano.si.edu/volcanolist_holocene.cfm), 2025. [Database]
+Volcanoes of the World (v. 5.3.2; 30 Sep 2025). Distributed by Smithsonian
+Institution, compiled by Venzke, E.
+https://doi.org/10.5479/si.GVP.VOTW5-2025.5.3
+
 All remaining contents of this project (especially the Makefile and all other
 parts of the blend file such as other meshes, geometry nodes, and python
 scripts, but excluding [data files downloaded by the
@@ -225,6 +238,11 @@ to the terms of the GPL, along with the following attribution notices:
   D. Sampietro, M. Reguzzoni, M. Negretti (2013). The GEMMA crustal model:
   first validation and data distribution. In: Proceedings of the ESA Living
   Planet Symposium, 9-13 September 2013, Edinburgh (UK), ESA SP-722
+- Contains volcano locations from the [Global Volcanism
+  Program](https://volcano.si.edu/volcanolist_holocene.cfm), 2025.
+  [Database] Volcanoes of the World (v. 5.3.2; 30 Sep 2025). Distributed by
+  Smithsonian Institution, compiled by Venzke, E.
+  https://doi.org/10.5479/si.GVP.VOTW5-2025.5.3
 
 3D printing of this model by others for fun or profit is encouraged, as is
 making improvements to it, as long as the terms of the GPL are followed. I.e.
