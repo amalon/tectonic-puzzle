@@ -292,7 +292,8 @@ $ make tectonic-puzzle.3mf
   - `mantle*.obj` (x8): set 1 to red, 2 to white.
   - `plate_*.obj` (x28): hopefully the "Color match" will select the correct
     colours, some combination of blue, green, red and dark grey.
-- Some plate pieces may have the wrong colour back. To fix this:
+- Check all pieces have reloaded, and if not reload individually.
+- Some plate pieces may have the wrong default material. To fix this:
   - Select all plate pieces.
   - Right-click the plates and set filament for the selected items to red.
 - The mantle segments have magnet slots against the build plate, which do not
@@ -304,6 +305,9 @@ $ make tectonic-puzzle.3mf
     disable supports. There are 3 downward facing faces where supports need
     disabling in each slot.
   - Exit the support painting tool.
+- The core and mantle pieces use variable layer height. Check the layer heights
+  haven't been reset by reloading. If they have, tick "Keep min" and click
+  "Adaptive" and "Smooth".
 
 
 3mf File Details
