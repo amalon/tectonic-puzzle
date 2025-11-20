@@ -272,7 +272,7 @@ Generating PDF Guides
 
 - Ensure all guide images have been rendered (see above).
 - Open `guide/guide.svg` in Inkscape.
-- Export as a PDF file.
+- Export all pages as a PDF file.
 
 
 Importing the OBJ files into Orca Slicer
