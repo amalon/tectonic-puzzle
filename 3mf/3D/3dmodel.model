@@ -169,8 +169,8 @@
   <item objectid="36" p:UUID="00000024-b1ec-4553-aec9-835e5b724bb4" transform="1 0 0 0 1 0 0 0 1 394.489228 -175.413334 27.8482979" printable="1"/>
   <item objectid="39" p:UUID="00000027-b1ec-4553-aec9-835e5b724bb4" transform="1 0 0 0 1 0 0 0 1 520.606765 -193.039968 31.7994394" printable="1"/>
   <item objectid="42" p:UUID="0000002a-b1ec-4553-aec9-835e5b724bb4" transform="1 0 0 0 1 0 0 0 1 500.04492 -69.678884 27.7867215" printable="1"/>
-  <item objectid="47" p:UUID="0000002f-b1ec-4553-aec9-835e5b724bb4" transform="1 0 0 0 1 0 0 0 1 135.56474 -179.040742 47.6010849" printable="1"/>
-  <item objectid="52" p:UUID="00000034-b1ec-4553-aec9-835e5b724bb4" transform="1 0 0 0 1 0 0 0 1 750.561653 123.801824 47.6187382" printable="1"/>
+  <item objectid="47" p:UUID="0000002f-b1ec-4553-aec9-835e5b724bb4" transform="0.707106781 0.707106781 0 -0.707106781 0.707106781 0 0 0 1 144.777769 -181.709412 47.601083" printable="1"/>
+  <item objectid="52" p:UUID="00000034-b1ec-4553-aec9-835e5b724bb4" transform="0.707106781 0.707106781 0 -0.707106781 0.707106781 0 0 0 1 761.772751 121.757375 47.6187382" printable="1"/>
   <item objectid="57" p:UUID="00000039-b1ec-4553-aec9-835e5b724bb4" transform="1 0 0 0 1 0 0 0 1 389.944252 -76.3429627 36.7472836" printable="1"/>
   <item objectid="59" p:UUID="0000003b-b1ec-4553-aec9-835e5b724bb4" transform="1 0 0 0 1 0 0 0 1 436.048868 100.010155 27.759779" printable="1"/>
   <item objectid="61" p:UUID="0000003d-b1ec-4553-aec9-835e5b724bb4" transform="1 0 0 0 1 0 0 0 1 123.903622 131.463046 9.57557106" printable="1"/>
