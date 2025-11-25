@@ -161,6 +161,25 @@ rather than the source files in this repository.
 See the [Print Guide](docs/printing.md) for details.
 
 
+Upgrading
+=========
+
+Interfaces between parts may change between releases, so consult the interface
+versions below before mixing parts from different releases.
+
+| Release                                                             | Mantle-Mantle | Mantle-Plates | Highlights |
+| ------------------------------------------------------------------- | ------------- | ------------- | ---------- |
+| [v1.0](https://github.com/amalon/tectonic-puzzle/releases/tag/v1.0) | version 1     | version 1     | Original version. |
+| [v1.1](https://github.com/amalon/tectonic-puzzle/releases/tag/v1.1) | version 1     | version 1     | Reduced the part resolution from 0.15mm to 0.2mm. |
+| [v1.2](https://github.com/amalon/tectonic-puzzle/releases/tag/v1.2) | **version 2** | version 1     | **Interface between mantle pieces changed to double number of magnets.** |
+| [v1.3](https://github.com/amalon/tectonic-puzzle/releases/tag/v1.3) | version 2     | version 1     | Added Volcanoes to tectonic plate pieces. |
+
+Only the latest release will be on [Maker
+World](https://makerworld.com/en/models/1763244-tectonic-plate-magnetic-globe-puzzle)
+due to storage limitations, but all past releases are preserved [on
+GitHub](https://github.com/amalon/tectonic-puzzle/releases).
+
+
 Development
 ===========
 
